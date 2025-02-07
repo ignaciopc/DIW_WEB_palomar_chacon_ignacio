@@ -1,0 +1,295 @@
+@charset "UTF-8";
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Eliminar los bordes de los botones y formularios */
+button,
+input,
+select,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* 3. Ajustar la tipografía */
+body {
+  font-family: sans-serif;
+}
+
+/* 4. Eliminar el estilo de lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 5. Asegurarse de que las imágenes y otros medios no desborden */
+img,
+video,
+audio {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 6. Controlar la apariencia de las tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* 7. Eliminar los bordes predeterminados de los formularios */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* 8. Evitar que los enlaces cambien de color cuando se visitan */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 5%;
+  height: 10vh;
+}
+.header .logo {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.header .nav {
+  display: flex;
+  gap: 20px;
+}
+.header .nav .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.header .nav .nav-link:hover {
+  color: #ccc;
+}
+
+@media (min-width: 2560px) {
+  .header {
+    padding: 10px 10%;
+  }
+  .header .logo {
+    font-size: 1.5rem;
+  }
+  .header .nav {
+    gap: 300px;
+  }
+  .header .nav .nav-link {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .header {
+    padding: 10px 8%;
+  }
+  .header .logo {
+    font-size: 1.3rem;
+  }
+  .header .nav {
+    gap: 100px;
+  }
+  .header .nav .nav-link {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .header {
+    padding: 10px 6%;
+  }
+  .header .logo {
+    font-size: 1.2rem;
+  }
+  .header .nav {
+    gap: 100px;
+  }
+  .header .nav .nav-link {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    padding: 10px 5%;
+  }
+  .header .logo {
+    font-size: 1.1rem;
+  }
+  .header .nav {
+    gap: 50px;
+  }
+  .header .nav .nav-link {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 10px 5%;
+  }
+  .header .nav {
+    margin-left: 100px;
+    gap: 28px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+  .header .nav.active {
+    display: flex;
+  }
+}
+.red-button {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff3B30;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+.red-button button {
+  color: white;
+  font-weight: bold;
+}
+.red-button:hover {
+  background-color: #ff6b81;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+.red-button:active {
+  background-color: #ff4757;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(0);
+}
+
+picture {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  width: 100%; /* Ocupa todo el ancho disponible */
+}
+picture img {
+  max-width: 100%; /* La imagen ocupa un máximo del 100% del contenedor */
+  height: auto; /* La altura se ajusta automáticamente */
+  border-radius: 10px; /* Bordes redondeados */
+  object-fit: contain; /* Asegura que toda la imagen sea visible */
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row; /* Columna en móviles */
+  align-items: center;
+  max-width: 90%; /* Ancho máximo relativo */
+  margin: 0 auto; /* Centra el contenedor */
+  text-align: center; /* Centra el texto */
+  margin-top: 10px; /* Espacio entre la imagen y el texto/botón */
+}
+.contenedor #parrafoMotivacional {
+  max-width: 100%; /* Ocupa el 100% del ancho en móviles */
+  font-weight: bold;
+  font-size: 1.2rem; /* Tamaño de fuente relativo */
+}
+.contenedor .red-button {
+  justify-content: center;
+}
+
+/* Media Queries para pantallas pequeñas (menos de 768px) */
+@media (max-width: 767px) {
+  picture img {
+    margin-top: 100px;
+    max-width: 90%; /* La imagen ocupa todo el ancho disponible en móviles */
+  }
+  .contenedor {
+    flex-direction: column; /* Columna en móviles */
+    padding: 10px; /* Espaciado interno en móviles */
+  }
+  .contenedor #parrafoMotivacional {
+    font-size: 1.1rem; /* Tamaño de fuente un poco más pequeño para móviles */
+    margin-top: 50px; /* Espacio superior entre el párrafo y el siguiente elemento */
+  }
+  .contenedor .red-button {
+    width: 100%; /* Asegura que el botón ocupe todo el ancho en móviles */
+    max-width: 180px; /* Establece un tamaño máximo para el botón */
+    margin-top: 30px; /* Espaciado superior entre el texto y el botón */
+  }
+}
+/* Media Queries para pantallas medianas (tablets) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  picture img {
+    margin-top: 100px;
+    max-width: 80%; /* La imagen ocupa un máximo del 80% en tablets */
+  }
+  .contenedor {
+    margin-top: 50px;
+    flex-direction: row; /* Fila en pantallas medianas */
+    justify-content: space-between;
+    max-width: 80%; /* Ancho máximo relativo */
+    padding-inline: 100px;
+  }
+  .contenedor #parrafoMotivacional {
+    max-width: 50%; /* Ocupa el 50% del ancho en tablets */
+    font-size: 1.5rem; /* Tamaño de fuente más grande */
+  }
+  .contenedor .red-button {
+    max-width: 150px; /* Ajuste del ancho del botón */
+  }
+}
+/* Media Queries para pantallas grandes (escritorios) */
+@media (min-width: 1200px) {
+  picture img {
+    margin-top: 50px;
+    max-width: 50%; /* La imagen ocupa un máximo del 60% en pantallas grandes */
+  }
+  .contenedor {
+    margin-top: 15px;
+    max-width: 60%; /* Contenedor más estrecho en pantallas grandes */
+    flex-direction: row; /* Fila en pantallas grandes */
+    justify-content: space-evenly; /* Espaciado equitativo entre los elementos */
+  }
+  .contenedor #parrafoMotivacional {
+    max-width: 45%; /* El párrafo ocupa el 45% del ancho */
+    font-size: 1.2rem; /* Tamaño de fuente más grande */
+  }
+}
+/* Media Queries para pantallas extra grandes (pantallas muy grandes, 2560px y más) */
+@media (min-width: 2560px) {
+  picture img {
+    max-width: 50%; /* La imagen ocupa un máximo del 50% en pantallas muy grandes */
+  }
+  .contenedor {
+    max-width: 50%; /* Contenedor más estrecho en pantallas muy grandes */
+    flex-direction: row; /* Fila en pantallas muy grandes */
+    justify-content: space-evenly;
+  }
+  .contenedor #parrafoMotivacional {
+    max-width: 40%; /* El párrafo ocupa el 40% del ancho */
+    font-size: 2.2rem; /* Tamaño de fuente más grande */
+  }
+  .contenedor .red-button {
+    max-width: 220px; /* Aumento aún mayor del tamaño del botón */
+  }
+}
+
+/*# sourceMappingURL=landing.css.map */

@@ -1,0 +1,31 @@
+.red-button {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px; // Espaciado interno (ajusta según necesites)
+    font-size: 16px; // Tamaño de la fuente
+    font-weight: bold; // Texto en negrita
+    background-color: #ff3B30; // Color de fondo rojo
+    color: white; // Color del texto
+
+    border: none; // Sin borde
+    border-radius: 8px; // Bordes redondeados
+    cursor: pointer; // Cambia el cursor al pasar sobre el botón
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra suave
+    transition: all 0.3s ease; // Transición suave para efectos
+    button{
+        color: white;
+        font-weight: bold;
+
+    }
+    &:hover {
+        background-color: #ff6b81; // Cambia el color de fondo al pasar el mouse
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); // Aumenta la sombra al pasar el mouse
+        transform: translateY(-2px); // Efecto de levantar el botón
+    }
+
+    &:active {
+        background-color: #ff4757; // Restaura el color original al hacer clic
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Restaura la sombra original
+        transform: translateY(0); // Restaura la posición original
+    }
+}

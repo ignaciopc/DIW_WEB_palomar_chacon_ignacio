@@ -1,0 +1,234 @@
+@charset "UTF-8";
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 5%;
+  height: 10vh;
+}
+.header .logo {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.header .nav {
+  display: flex;
+  gap: 20px;
+}
+.header .nav .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.header .nav .nav-link:hover {
+  color: #ccc;
+}
+
+@media (min-width: 2560px) {
+  .header {
+    padding: 10px 10%;
+  }
+  .header .logo {
+    font-size: 1.5rem;
+  }
+  .header .nav {
+    gap: 300px;
+  }
+  .header .nav .nav-link {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .header {
+    padding: 10px 8%;
+  }
+  .header .logo {
+    font-size: 1.3rem;
+  }
+  .header .nav {
+    gap: 100px;
+  }
+  .header .nav .nav-link {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .header {
+    padding: 10px 6%;
+  }
+  .header .logo {
+    font-size: 1.2rem;
+  }
+  .header .nav {
+    gap: 100px;
+  }
+  .header .nav .nav-link {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    padding: 10px 5%;
+  }
+  .header .logo {
+    font-size: 1.1rem;
+  }
+  .header .nav {
+    gap: 50px;
+  }
+  .header .nav .nav-link {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 10px 5%;
+  }
+  .header .nav {
+    margin-left: 100px;
+    gap: 28px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+  }
+  .header .nav.active {
+    display: flex;
+  }
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Eliminar los bordes de los botones y formularios */
+button,
+input,
+select,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* 3. Ajustar la tipografía */
+body {
+  font-family: sans-serif;
+}
+
+/* 4. Eliminar el estilo de lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 5. Asegurarse de que las imágenes y otros medios no desborden */
+img,
+video,
+audio {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 6. Controlar la apariencia de las tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* 7. Eliminar los bordes predeterminados de los formularios */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* 8. Evitar que los enlaces cambien de color cuando se visitan */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#home {
+  background-image: url("../../../media/imagenes/avif/imagenFondoMenu2560X1707.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  color: #2C2C2E;
+  position: relative;
+}
+@media (max-width: 2560px) {
+  #home {
+    background-image: url("../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif");
+  }
+}
+@media (max-width: 1920px) {
+  #home {
+    background-image: url("../../../media/imagenes/avif/imagenFondoMenu1200x800.avif");
+  }
+}
+@media (max-width: 1200px) {
+  #home {
+    background-image: url("../../../media/imagenes/avif/imagenFondoMenu768X512.avif");
+  }
+}
+@media (max-width: 768px) {
+  #home {
+    background-image: url("../../../media/imagenes/avif/imagenFondoMenu480x320.avif");
+  }
+}
+#home h1 {
+  color: #ff3b30;
+  margin: 60px 0;
+  font-size: 5rem;
+}
+
+.contenedorHome {
+  display: flex;
+  gap: 200px;
+  margin-top: 80px;
+}
+.contenedorHome .tarjeta {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 30px;
+}
+.contenedorHome .tarjeta img {
+  width: 100%;
+  height: 80%;
+  border-radius: 30px;
+}
+
+.crear {
+  background: #ff3b30;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.busqueda {
+  background-color: white;
+  height: 50px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+/*# sourceMappingURL=home.css.map */

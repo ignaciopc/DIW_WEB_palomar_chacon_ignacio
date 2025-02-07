@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Eliminar los bordes de los botones y formularios */
+button,
+input,
+select,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* 3. Ajustar la tipografía */
+body {
+  font-family: sans-serif;
+}
+
+/* 4. Eliminar el estilo de lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 5. Asegurarse de que las imágenes y otros medios no desborden */
+img,
+video,
+audio {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 6. Controlar la apariencia de las tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* 7. Eliminar los bordes predeterminados de los formularios */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* 8. Evitar que los enlaces cambien de color cuando se visitan */
+a {
+  text-decoration: none;
+  color: inherit;
+}

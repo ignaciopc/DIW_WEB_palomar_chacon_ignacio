@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/principal.css" type="text/css">
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body class="contenedor">
+    <header class="cabecera">
+      <h1>Tutorial de SASS</h1>
+      <nav>
+        <ul>
+          <li><a href="#use">@use</a></li>
+          <li><a href="#comentarios">Comentarios</a></li>
+          <li><a href="#variables">Variables</a></li>
+          <li><a href="#interpolacion">Interpolación</a></li>
+          <li><a href="#funciones">Funciones</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <main class="contenedor-flex-vertical espaciado">
+      <section id="use">
+        <h2>@use</h2>
+        <p>
+          Para usar los elementos definidos en un primer módulo en un segundo hay que usar @use en el segundo salvo en las funciones, en cuyo caso SASS es permisivo y permite usarlas en algunos casos cuando se importan a través de un archivo principal (_main.scss). Así, si se importan las funciones y el fichero que las usa en el principal, el que las usa las puede utilizar aunque no tenga @use funciones          
+          </p>
+        <article class="codigo"><code>@use "sass:map";
+@use "sass:math";
+@use "sass:string";
+@use 'variables';
+@use 'media-query';
+</code></article>
+      </section>
+
+      <section id="comentarios">            
+        <h2>Comentarios</h2>
+        <article class="codigo"><code>// Este comentario no irá en el CSS
+/* Este comentario irá en el CSS, salvo que se use el modo comprimido */
+/*! Este comentario siempre irá en el CSS */</code></article>
+      </section>
+
+      <section id="variables">
+        <h2>Variables</h2>
+        <p>Las variables pueden ser globales o locales:</p>
+        <h3>Definición de variables globales</h3>
+        <article class="codigo"><code>
+$color-primario: #3498db;
+$tamaño-fuente: 16px;
+
+body {
+  font-size: $tamaño-fuente;
+  background-color: $color-primario;
+}</code></article>
+
+        <h3>Definición de variables locales</h3>
+        <article class="codigo"><code>
+.navbar {
+  $color-fondo: #2c3e50;
+  background-color: $color-fondo;
+}</code></article>
+      </section>
+
+      <section id="interpolacion">
+        <h2>Interpolación</h2>
+        <p>Permite insertar dinámicamente valores en cadenas de texto o selectores:</p>
+        <h3>Ejemplo 1: En comentarios</h3>
+        <article class="codigo"><code>$autor: "Chiquito de la calzada";
+/* Web desarrollada por #{$autor} */</code></article>
+
+        <h3>Ejemplo 2: En nombres de clases</h3>
+        <article class="codigo"><code>$color: 'red';
+.button-#{$color} {
+  background-color: $color;
+}</code></article>
+
+        <h3>Ejemplo 3: En propiedades CSS</h3>
+        <article class="codigo"><code>
+$prefijo: 'font';
+$tamaño: 'size';
+
+#{$prefijo}-#{$tamaño} {
+  font-size: 16px;
+}</code></article>
+
+        <h3>Ejemplo 4: Combinaciones de valores</h3>
+        <article class="codigo"><code>$base: 'color';
+$valor: 'blue';
+
+#{$base}-background: $valor;</code></article>
+
+        <h3>Ejemplo 5: En URLs</h3>
+        <article class="codigo"><code>$image-path: 'images/logo.png';
+background-image: url('#{$image-path}');</code></article>
+        </section>
+
+      <section id="funciones">
+        <h2>Funciones</h2>
+        <p>Ver el archivo <code>_funciones.scss</code>.</p>
+        <article class="codigo"><code>@function escala-tipografica($base, $factor) {
+  @return $base * $factor;
+}
+
+h1 {
+  font-size: escala-tipografica(16px, 1.5); // Resultado: 24px
+}
+
+h2 {
+  font-size: escala-tipografica(16px, 1.25); // Resultado: 20px
+}</code></article>
+      </section>
+    </main>
+  
+    <footer>
+      <p>&copy; 2025 Tutorial de SASS</p>
+      <p></p>
+      <article>
+        <p>Alejandro Viana Ríos</p>
+        <i class="fa-brands fa-instagram fa-2x"></i>
+        <i class="fa-brands fa-github fa-2x"></i>
+      </article>
+    </footer>
+  </body>
+  </html>

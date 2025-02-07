@@ -1,0 +1,115 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 5%; // Padding relativo (5% en los lados)
+    height: 10vh; // Altura relativa
+
+    .logo {
+        background-color: #555;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 1rem; // Tamaño de fuente base
+    }
+
+    .nav {
+        display: flex;
+        gap: 20px; // Espacio entre enlaces
+
+        .nav-link {
+            color: white;
+            text-decoration: none;
+            font-size: 0.9rem; // Tamaño de fuente base
+
+            &:hover {
+                color: #ccc;
+            }
+        }
+    }
+}
+
+// Media Queries para cada resolución
+
+// 2560px: Large screens
+@media (min-width: 2560px) {
+    .header {
+        padding: 10px 10%; // Más padding en pantallas grandes
+        .logo {
+            font-size: 1.5rem; // Tamaño de fuente más grande
+        }
+        .nav {
+            gap: 300px; // Más espacio entre enlaces
+            .nav-link {
+                font-size: 2rem; // Tamaño de fuente más grande
+            }
+        }
+    }
+}
+
+// 1920px: Standard screens
+@media (min-width: 1920px) and (max-width: 2559px) {
+    .header {
+        padding: 10px 8%; // Padding intermedio
+        .logo {
+            font-size: 1.3rem; // Tamaño de fuente intermedio
+        }
+        .nav {
+            gap: 100px; // Espacio intermedio entre enlaces
+            .nav-link {
+                font-size: 1rem; // Tamaño de fuente intermedio
+            }
+        }
+    }
+}
+
+// 1200px: Small screens
+@media (min-width: 1200px) and (max-width: 1919px) {
+    .header {
+        padding: 10px 6%; // Padding reducido
+        .logo {
+            font-size: 1.2rem; // Tamaño de fuente reducido
+        }
+        .nav {
+            gap: 100px; // Espacio reducido entre enlaces
+            .nav-link {
+                font-size: 1.5rem; // Tamaño de fuente reducido
+            }
+        }
+    }
+}
+
+// 768px: Tablets
+@media (min-width: 768px) and (max-width: 1199px) {
+    .header {
+        padding: 10px 5%; // Padding para tablets
+        .logo {
+            font-size: 1.1rem; // Tamaño de fuente para tablets
+        }
+        .nav {
+            gap: 50px; // Espacio para tablets
+            .nav-link {
+                font-size: 1.5rem; // Tamaño de fuente para tablets
+            }
+        }
+    }
+}
+
+// 480px: Mobile phones
+@media (max-width: 767px) {
+    .header {
+        padding: 10px 5%;
+        .nav {
+            margin-left: 100px;   
+            gap: 28px;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+
+            &.active {
+                display: flex; // Se muestra cuando tiene la clase .active
+            }
+        }
+    }
+}

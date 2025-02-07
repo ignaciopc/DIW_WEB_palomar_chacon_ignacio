@@ -1,0 +1,23 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "translating-sass",
+  "scripts": {
+    "compilar-sass": "sass fuente/sass:fuente/css --source-map",
+    "monitorizar-sass": "sass --watch fuente/sass:fuente/css --source-map",
+    "sass:landing": "sass fuente/sass/pages/landing.scss css/landing.css",
+    "sass:home": "sass assets/scss/pages/home.scss css/home.css"
+  },
+  "author": "Ignacio Palomar Chacon",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  }
+}

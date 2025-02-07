@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../fuente/css/home.css">
+    <script src="../scr/script.js" defer></script>
+    <script src="../scr/header.js" defer></script>
+</head>
+
+<body>
+    <div id="header-container"></div>
+    <section id="home">
+        <h1>RUTINAS</h1>
+
+        <!-- Barra de búsqueda -->
+        <div class="busqueda">
+
+            <input type="text" id="search" placeholder="Buscar...">
+            <button type="submit">🔍</button>
+        </div>
+
+        <!-- Contenedor de tarjetas -->
+        <div class="contenedorHome">
+            <div class="tarjeta ">
+                <picture>
+                    <!-- Formatos AVIF -->
+                    <source srcset="../media/imagenes/avif/imagenEjemploEspalda5580x3556.avif" type="image/avif"
+                        media="(min-width: 2560px)">
+                    <source srcset="../media/imagenes/avif/imagenEjemploEspalda2540x1650.avif" type="image/avif"
+                        media="(min-width: 1920px)">
+                    <source srcset="../media/imagenes/avif/imagenEjemploEspalda1920x1224.avif" type="image/avif"
+                        media="(min-width: 1200px)">
+                    <source srcset="../media/imagenes/avif/imagenEjemploEspalda1200x765.avif" type="image/avif"
+                        media="(min-width: 768px)">
+                    <source srcset="../media/imagenes/avif/imagenEjemploEspalda768X489.avif" type="image/avif"
+                        media="(min-width: 480px)">
+                    <source srcset="../media/imagenes/avif/imagenEjemploEspalda480X306.avif" type="image/avif">
+
+                    <!-- Formatos WebP -->
+                    <source srcset="../media/imagenes/webp/imagenEjemploEspalda5580x3556.webp" type="image/webp"
+                        media="(min-width: 2560px)">
+                    <source srcset="../media/imagenes/webp/imagenEjemploEspalda2540x1650.webp" type="image/webp"
+                        media="(min-width: 1920px)">
+                    <source srcset="../media/imagenes/webp/imagenEjemploEspalda1920x1224.webp" type="image/webp"
+                        media="(min-width: 1200px)">
+                    <source srcset="../media/imagenes/webp/imagenEjemploEspalda1200x765.webp" type="image/webp"
+                        media="(min-width: 768px)">
+                    <source srcset="../media/imagenes/webp/imagenEjemploEspalda768X489.webp" type="image/webp"
+                        media="(min-width: 480px)">
+                    <source srcset="../media/imagenes/webp/imagenEjemploEspalda480X306.webp" type="image/webp">
+
+                    <!-- Formatos JPG -->
+                    <source srcset="../media/imagenes/jpg/imagenEjemploEspalda5580x3556.jpg" type="image/jpg"
+                        media="(min-width: 2560px)">
+                    <source srcset="../media/imagenes/jpg/imagenEjemploEspalda2540x1650.jpg" type="image/jpg"
+                        media="(min-width: 1920px)">
+                    <source srcset="../media/imagenes/jpg/imagenEjemploEspalda1920x1224.jpg" type="image/jpg"
+                        media="(min-width: 1200px)">
+                    <source srcset="../media/imagenes/jpg/imagenEjemploEspalda1200x765.jpg" type="image/jpg"
+                        media="(min-width: 768px)">
+                    <source srcset="../media/imagenes/jpg/imagenEjemploEspalda768X489.jpg" type="image/jpg"
+                        media="(min-width: 480px)">
+                    <source srcset="../media/imagenes/jpg/imagenEjemploEspalda480X306.jpg" type="image/jpg">
+
+                    <!-- Imagen de respaldo -->
+                    <img src="../media/imagenes/jpg/imagenEjemploEspalda480X306.jpg" alt="Imagen de ejemplo de espalda">
+                </picture>
+                <p>Lorem ipsum dolor sit</p>
+            </div>
+            <div class="tarjeta ">
+                <p>Lorem ipsum dolor sit</p>
+            </div>
+        </div>
+
+        <!-- Botón Crear -->
+        <button class="crear">Crear</button>
+    </section>
+
+
+</body>
+
+</html>
