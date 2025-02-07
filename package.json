@@ -5,7 +5,7 @@
   "scripts": {
     "compilar-sass": "sass fuente/sass:fuente/css --source-map",
     "monitorizar-sass": "sass --watch fuente/sass:fuente/css --source-map",
-    "sass:landing": "sass fuente/sass/pages/landing.scss css/landing.css",
+    "sass:landing": "sass --watch fuente/sass/pages/landing.scss css/landing.css",
     "sass:home": "sass assets/scss/pages/home.scss css/home.css"
   },
   "author": "Ignacio Palomar Chacon",

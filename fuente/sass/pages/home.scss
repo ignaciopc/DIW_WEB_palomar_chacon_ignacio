@@ -5,10 +5,10 @@
 
 // Variables de imágenes de fondo por resolución
 $home-background-large: url('../../../media/imagenes/avif/imagenFondoMenu2560X1707.avif');
-$home-background-standard: url('../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif');
-$home-background-small: url('../../../media/imagenes/avif/imagenFondoMenu1200x800.avif');
-$home-background-tablet: url('../../../media/imagenes/avif/imagenFondoMenu768X512.avif');
-$home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu480x320.avif');
+$home-background-standard: url('../../../media/imagenes/avif/imagenFondoMenu2560X1708\ .avif');
+$home-background-small: url('../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif');
+$home-background-tablet: url('../../../media/imagenes/avif/imagenFondoMenu1200X800.avif');
+$home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu758X512.avif');
 
 
 // Estilos del contenedor principal
@@ -26,19 +26,22 @@ $home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu480x32
     color: variables.$color-header;
     position: relative;
 
-    @media (max-width: 2560px) {
+    @media (min-width: 2560px) {
+        background-image: $home-background-large;
+    }
+
+    @media (min-width: 1200px) {
         background-image: $home-background-standard;
     }
 
-    @media (max-width: 1920px) {
+    @media (max-width: 1200px) {
         background-image: $home-background-small;
     }
 
-    @media (max-width: 1200px) {
+    @media ((min-width: 768px) and (max-width: 1199px)) {
         background-image: $home-background-tablet;
     }
-
-    @media (max-width: 768px) {
+    @media (max-width: 767px) {
         background-image: $home-background-mobile;
     }
 
@@ -66,10 +69,8 @@ $home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu480x32
         border-radius: 30px;
         img {
             width: 100%;
-            height: 80%;
+            height: 85%;
             border-radius: 30px;
-
-
         }
     }
 }
@@ -77,13 +78,15 @@ $home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu480x32
 
 // Botón de Crear
 .crear {
+    position: absolute;
+    bottom: 0;
     background: variables.$color-secundario;
     color: white;
     border: none;
     padding: 10px 20px;
-    margin-top: 20px;
     cursor: pointer;
     font-size: 16px;
+
 }
 
 .busqueda {
