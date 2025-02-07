@@ -1,0 +1,75 @@
+@use '../global/variables.scss';
+.footer {
+    background-color: #e6e6e6; // Fondo gris claro
+    padding: 20px;
+    border-top: 1px solid black; // Línea superior
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    // Sección superior con logo e íconos
+    .top-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1000px;
+        margin-bottom: 20px; // Espacio con la info
+        border-bottom: 2px solid black;
+        padding-bottom: 30px    ;
+        .logo {
+            width: 80px;
+            height: 80px;
+            background-color: #666; // Color de fondo del logo
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: white;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 15px;
+
+            a{
+                font-size: x-large;
+            }
+            img {
+                width: 1000px; // Tamaño de los íconos
+                height: 100px;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+    // Sección inferior con la información en columnas
+    .info {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        max-width: 800px;
+        text-align: left;
+
+        div {
+            flex: 1;
+            margin: 0 10px;
+
+            h3 {
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+            p {
+                font-size: 14px;
+                margin: 5px 0;
+            }
+        }
+    }
+}

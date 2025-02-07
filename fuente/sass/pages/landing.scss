@@ -32,7 +32,8 @@ picture {
         font-size: 1.2rem; /* Tamaño de fuente relativo */
     }
 
-    .red-button {
+    .registrar {
+        @include boton.red-button;
         justify-content: center;
     }
 }
@@ -53,7 +54,7 @@ picture {
             margin-top: 50px; /* Espacio superior entre el párrafo y el siguiente elemento */
         }
 
-        .red-button {
+        .registrar {
             width: 100%; /* Asegura que el botón ocupe todo el ancho en móviles */
             max-width: 180px; /* Establece un tamaño máximo para el botón */
             margin-top: 30px; /* Espaciado superior entre el texto y el botón */
@@ -80,7 +81,7 @@ picture {
             font-size: 1.5rem; /* Tamaño de fuente más grande */
         }
 
-        .red-button {
+        .registrar {
             max-width: 150px; /* Ajuste del ancho del botón */
         }
     }
@@ -122,7 +123,7 @@ picture {
             font-size: 2.2rem; /* Tamaño de fuente más grande */
         }
 
-        .red-button {
+        .registrar {
             max-width: 220px; /* Aumento aún mayor del tamaño del botón */
         }
     }

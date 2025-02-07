@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #2C2C2E;
   color: white;
   padding: 10px 5%;
   height: 10vh;
@@ -155,6 +155,71 @@ a {
   color: inherit;
 }
 
+.footer {
+  background-color: #e6e6e6;
+  padding: 20px;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer .top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 30px;
+}
+.footer .top-section .logo {
+  width: 80px;
+  height: 80px;
+  background-color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+.footer .top-section .social-icons {
+  display: flex;
+  gap: 15px;
+}
+.footer .top-section .social-icons a {
+  font-size: x-large;
+}
+.footer .top-section .social-icons img {
+  width: 1000px;
+  height: 100px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.footer .top-section .social-icons img:hover {
+  transform: scale(1.1);
+}
+.footer .info {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+.footer .info div {
+  flex: 1;
+  margin: 0 10px;
+}
+.footer .info div h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.footer .info div p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
 #home {
   background-image: url("../../../media/imagenes/avif/imagenFondoMenu2560X1707.avif");
   background-size: cover;
@@ -218,14 +283,40 @@ a {
 }
 
 .crear {
-  position: absolute;
-  bottom: 0;
-  background: #ff3b30;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff3B30;
   color: white;
   border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: absolute;
+  bottom: 0;
   padding: 10px 20px;
   cursor: pointer;
-  font-size: 16px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  width: 100px;
+  justify-content: center;
+}
+.crear button {
+  color: white;
+  font-weight: bold;
+}
+.crear:hover {
+  background-color: #ff6b81;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+.crear:active {
+  background-color: #ff4757;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(0);
 }
 
 .busqueda {

@@ -60,7 +60,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #2C2C2E;
   color: white;
   padding: 10px 5%;
   height: 10vh;
@@ -155,35 +155,6 @@ a {
     display: flex;
   }
 }
-.red-button {
-  display: flex;
-  align-items: center;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #ff3B30;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-.red-button button {
-  color: white;
-  font-weight: bold;
-}
-.red-button:hover {
-  background-color: #ff6b81;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px);
-}
-.red-button:active {
-  background-color: #ff4757;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transform: translateY(0);
-}
-
 picture {
   display: flex;
   justify-content: center; /* Centra horizontalmente */
@@ -211,8 +182,34 @@ picture img {
   font-weight: bold;
   font-size: 1.2rem; /* Tamaño de fuente relativo */
 }
-.contenedor .red-button {
+.contenedor .registrar {
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ff3B30;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
   justify-content: center;
+}
+.contenedor .registrar button {
+  color: white;
+  font-weight: bold;
+}
+.contenedor .registrar:hover {
+  background-color: #ff6b81;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+.contenedor .registrar:active {
+  background-color: #ff4757;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: translateY(0);
 }
 
 /* Media Queries para pantallas pequeñas (menos de 768px) */
@@ -229,7 +226,7 @@ picture img {
     font-size: 1.1rem; /* Tamaño de fuente un poco más pequeño para móviles */
     margin-top: 50px; /* Espacio superior entre el párrafo y el siguiente elemento */
   }
-  .contenedor .red-button {
+  .contenedor .registrar {
     width: 100%; /* Asegura que el botón ocupe todo el ancho en móviles */
     max-width: 180px; /* Establece un tamaño máximo para el botón */
     margin-top: 30px; /* Espaciado superior entre el texto y el botón */
@@ -252,7 +249,7 @@ picture img {
     max-width: 50%; /* Ocupa el 50% del ancho en tablets */
     font-size: 1.5rem; /* Tamaño de fuente más grande */
   }
-  .contenedor .red-button {
+  .contenedor .registrar {
     max-width: 150px; /* Ajuste del ancho del botón */
   }
 }
@@ -287,7 +284,7 @@ picture img {
     max-width: 40%; /* El párrafo ocupa el 40% del ancho */
     font-size: 2.2rem; /* Tamaño de fuente más grande */
   }
-  .contenedor .red-button {
+  .contenedor .registrar {
     max-width: 220px; /* Aumento aún mayor del tamaño del botón */
   }
 }

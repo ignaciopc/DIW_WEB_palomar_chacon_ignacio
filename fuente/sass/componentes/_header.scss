@@ -1,8 +1,10 @@
+@use '../global/variables.scss';
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: variables.$color-header;
     color: white;
     padding: 10px 5%; // Padding relativo (5% en los lados)
     height: 10vh; // Altura relativa

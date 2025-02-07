@@ -1,4 +1,4 @@
-.red-button {
+@mixin red-button {
     display: flex;
     align-items: center;
     padding: 12px 24px; // Espaciado interno (ajusta según necesites)

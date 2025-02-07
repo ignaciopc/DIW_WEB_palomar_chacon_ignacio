@@ -2,6 +2,9 @@
 @use "../componentes/header.scss";
 @use "../base/predeterminado.scss";
 @use "../global/variables.scss";
+@use "../componentes/footer.scss";
+@use "../componentes/boton.scss";
+
 
 // Variables de imágenes de fondo por resolución
 $home-background-large: url('../../../media/imagenes/avif/imagenFondoMenu2560X1707.avif');
@@ -78,14 +81,17 @@ $home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu758X51
 
 // Botón de Crear
 .crear {
+    @include boton.red-button;
+
     position: absolute;
     bottom: 0;
-    background: variables.$color-secundario;
-    color: white;
-    border: none;
+
     padding: 10px 20px;
     cursor: pointer;
-    font-size: 16px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    width: 100px;
+    justify-content: center;
 
 }
 
