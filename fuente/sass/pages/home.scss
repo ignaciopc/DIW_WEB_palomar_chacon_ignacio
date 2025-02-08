@@ -29,6 +29,7 @@ $home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu758X51
     color: variables.$color-header;
     position: relative;
 
+
     @media (min-width: 2560px) {
         background-image: $home-background-large;
     }
