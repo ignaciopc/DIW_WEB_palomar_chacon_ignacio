@@ -1,0 +1,9 @@
+@function calcular-tamaño-fuente($ancho) {
+    @if $ancho >= 2560 {
+        @return 9rem;
+    } @else if $ancho >= 1200 and $ancho < 2560 {
+        @return 7rem;
+    } @else {
+        @return 4rem;
+    }
+}

@@ -2,22 +2,42 @@
         @use "../componentes/header.scss";
         @use "../base/predeterminado.scss";
         @use "../global/variables.scss";
+        @use "../global/funciones.scss";
         @use "../componentes/footer.scss";
         @use "../componentes/boton.scss";
 
 
         // Variables de imágenes de fondo por resolución
-        $home-background-large: url('../../../media/imagenes/avif/imagenFondoMenu2560X1707.avif');
-        $home-background-standard: url('../../../media/imagenes/avif/imagenFondoMenu2560X1708\ .avif');
-        $home-background-small: url('../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif');
-        $home-background-tablet: url('../../../media/imagenes/avif/imagenFondoMenu1200X800.avif');
-        $home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu758X512.avif');
+// Variables de imágenes de fondo por resolución
+$home-background-large-avif: url('../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif');
+$home-background-standard-avif: url('../../../media/imagenes/avif/imagenFondoMenu2560X1708 .avif');
+$home-background-small-avif: url('../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif');
+$home-background-tablet-avif: url('../../../media/imagenes/avif/imagenFondoMenu1200X800.avif');
+$home-background-mobile-avif: url('../../../media/imagenes/avif/imagenFondoMenu758X512.avif');
+$home-background-xss-avif: url('../../../media/imagenes/avif/imagenFondoMenu480X320.avif');
+
+$home-background-large-webp: url('../../../media/imagenes/webp/imagenFondoMenu2560X1707.webp');
+$home-background-standard-webp: url('../../../media/imagenes/webp/imagenFondoMenu2560X1708 .webp');
+$home-background-small-webp: url('../../../media/imagenes/webp/imagenFondoMenu1920X1281.webp');
+$home-background-tablet-webp: url('../../../media/imagenes/webp/imagenFondoMenu1200X800.webp');
+$home-background-mobile-webp: url('../../../media/imagenes/webp/imagenFondoMenu758X512.webp');
+$home-background-xss-webp: url('../../../media/imagenes/webp/imagenFondoMenu480X320.webp');
+
+$home-background-large-jpg: url('../../../media/imagenes/jpg/imagenFondoMenu2560X1707.jpg');
+$home-background-standard-jpg: url('../../../media/imagenes/jpg/imagenFondoMenu2560X1708 .jpg');
+$home-background-small-jpg: url('../../../media/imagenes/jpg/imagenFondoMenu1920X1281.jpg');
+$home-background-tablet-jpg: url('../../../media/imagenes/jpg/imagenFondoMenu1200X800.jpg');
+$home-background-mobile-jpg: url('../../../media/imagenes/jpg/imagenFondoMenu758X512.jpg');
+$home-background-xss-jpg: url('../../../media/imagenes/jpg/imagenFondoMenu480X320.jpg');
+
+
+$usar-color-secundario: true;
 
 
         // Estilos del contenedor principal
         body {
             margin: 0;
-            background-image: $home-background-large;
+            background-image: $home-background-large-avif;
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -25,35 +45,94 @@
             display: flex;
             flex-direction: column; //
 
+    // Carga de imágenes AVIF si el navegador las soporta
+    @supports (background-image: $home-background-large-avif) {
+        background-image: $home-background-large-avif;
 
-            @media (min-width: 2560px) {
-                background-image: $home-background-large;
-            }
+        @media (min-width: 2560px) {
+            background-image: $home-background-large-avif;
+        }
 
-            @media (min-width: 1200px) {
-                background-image: $home-background-standard;
-            }
+        @media (min-width: 1200px) and (max-width: 2559px) {
+            background-image: $home-background-standard-avif;
+        }
 
-            @media (max-width: 1200px) {
-                background-image: $home-background-small;
-            }
+        @media (min-width: 768px) and (max-width: 1199px) {
+            background-image: $home-background-tablet-avif;
+        }
 
-            @media ((min-width: 768px) and (max-width: 1199px)) {
-                background-image: $home-background-tablet;
-            }
+        @media (max-width: 767px) {
+            background-image: $home-background-mobile-avif;
+        }
 
-            @media (max-width: 767px) {
-                background-image: $home-background-mobile;
-            }
+        @media (max-width: 480px) {
+            background-image: $home-background-xss-avif;
+        }
+    }
 
+    // Si no soporta AVIF, carga WebP
+    @supports not (background-image: $home-background-large-avif) {
+        background-image: $home-background-large-webp;
+
+        @media (min-width: 2560px) {
+            background-image: $home-background-large-webp;
+        }
+
+        @media (min-width: 1200px) and (max-width: 2559px) {
+            background-image: $home-background-standard-webp;
+        }
+
+        @media (min-width: 768px) and (max-width: 1199px) {
+            background-image: $home-background-tablet-webp;
+        }
+
+        @media (max-width: 767px) {
+            background-image: $home-background-mobile-webp;
+        }
+
+        @media (max-width: 480px) {
+            background-image: $home-background-xss-webp;
+        }
+    }
+
+    // Si no soporta WebP, carga JPG
+    @supports not (background-image: $home-background-large-webp) {
+        background-image: $home-background-large-jpg;
+
+        @media (min-width: 2560px) {
+            background-image: $home-background-large-jpg;
+        }
+
+        @media (min-width: 1200px) and (max-width: 2559px) {
+            background-image: $home-background-standard-jpg;
+        }
+
+        @media (min-width: 768px) and (max-width: 1199px) {
+            background-image: $home-background-tablet-jpg;
+        }
+
+        @media (max-width: 767px) {
+            background-image: $home-background-mobile-jpg;
+        }
+
+        @media (max-width: 480px) {
+            background-image: $home-background-xss-jpg;
+        }
+    }
 
 
 
         }
 
         h1 {
+            @if $usar-color-secundario{
+                color: variables.$color-secundario;
+
+            }@else{
+                color: variables.$color-principal;
+            }
             color: variables.$color-secundario;
-            margin: 60px 0;
+            margin: 60px ;
             font-size: 5rem;
         }
 
@@ -64,7 +143,7 @@
             justify-content: flex-start;
             align-items: center;
             text-align: center;
-            color: variables.$color-header;
+            color: variables.$color-principal;
             position: relative;
 
         }
@@ -123,7 +202,7 @@
         /* Large screens (2560px) */
         @media (min-width: 2560px) {
             h1{
-                font-size: 9rem;
+                font-size: funciones.calcular-tamaño-fuente(2560);
             }
             p{
                 font-size: 2rem;
