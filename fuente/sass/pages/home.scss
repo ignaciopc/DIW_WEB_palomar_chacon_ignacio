@@ -1,279 +1,175 @@
-// Variables de colores
-@use "../componentes/header.scss";
-@use "../base/predeterminado.scss";
-@use "../global/variables.scss";
-@use "../componentes/footer.scss";
-@use "../componentes/boton.scss";
+        // Variables de colores
+        @use "../componentes/header.scss";
+        @use "../base/predeterminado.scss";
+        @use "../global/variables.scss";
+        @use "../componentes/footer.scss";
+        @use "../componentes/boton.scss";
 
 
-// Variables de imágenes de fondo por resolución
-$home-background-large: url('../../../media/imagenes/avif/imagenFondoMenu2560X1707.avif');
-$home-background-standard: url('../../../media/imagenes/avif/imagenFondoMenu2560X1708\ .avif');
-$home-background-small: url('../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif');
-$home-background-tablet: url('../../../media/imagenes/avif/imagenFondoMenu1200X800.avif');
-$home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu758X512.avif');
+        // Variables de imágenes de fondo por resolución
+        $home-background-large: url('../../../media/imagenes/avif/imagenFondoMenu2560X1707.avif');
+        $home-background-standard: url('../../../media/imagenes/avif/imagenFondoMenu2560X1708\ .avif');
+        $home-background-small: url('../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif');
+        $home-background-tablet: url('../../../media/imagenes/avif/imagenFondoMenu1200X800.avif');
+        $home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu758X512.avif');
 
 
-// Estilos del contenedor principal
-body{
-    margin: 0;
-    background-image: $home-background-large;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh; // Usar min-height en vez de height
-    display: flex;
-    flex-direction: column; //
+        // Estilos del contenedor principal
+        body {
+            margin: 0;
+            background-image: $home-background-large;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh; // Usar min-height en vez de height
+            display: flex;
+            flex-direction: column; //
 
 
-    @media (min-width: 2560px) {
-        background-image: $home-background-large;
-    }
+            @media (min-width: 2560px) {
+                background-image: $home-background-large;
+            }
 
-    @media (min-width: 1200px) {
-        background-image: $home-background-standard;
-    }
+            @media (min-width: 1200px) {
+                background-image: $home-background-standard;
+            }
 
-    @media (max-width: 1200px) {
-        background-image: $home-background-small;
-    }
+            @media (max-width: 1200px) {
+                background-image: $home-background-small;
+            }
 
-    @media ((min-width: 768px) and (max-width: 1199px)) {
-        background-image: $home-background-tablet;
-    }
+            @media ((min-width: 768px) and (max-width: 1199px)) {
+                background-image: $home-background-tablet;
+            }
 
-    @media (max-width: 767px) {
-        background-image: $home-background-mobile;
-    }
-
-    h1 {
-        color: variables.$color-secundario;
-        margin: 60px 0;
-        font-size: 5rem;
-    }
+            @media (max-width: 767px) {
+                background-image: $home-background-mobile;
+            }
 
 
-}
 
-#home{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    color: variables.$color-header;
-    position: relative;
-}
 
-// Estilos del contenedor de tarjetas
-// Estilos del contenedor de tarjetas
-.contenedorHome {
-    display: flex;
-    gap: 200px;
-    margin-top: 80px;
-
-    .tarjeta {
-
-        width: 300px;
-        height: 200px;
-        background-color: white;
-        border-radius: 30px;
-
-        img {
-            width: 100%;
-            height: 85%;
-            border-radius: 30px;
         }
-    }
-}
 
-
-// Botón de Crear
-.crear {
-    @include boton.red-button;
-
-    position: absolute;
-    bottom: 0;
-
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    width: 100px;
-    justify-content: center;
-
-}
-
-.busqueda {
-    background-color: white;
-    height: 50px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-/* Media Queries para pantallas pequeñas (moviles) */
-/* Large screens (2560px) */
-@media (max-width: 2560px) {}
-
-/* Standard screens (1920px) */
-@media (max-width: 1920px) {}
-
-/* Small screens (1200px) */
-@media (max-width: 1200px) {}
-
-/* Tablets (768px) */
-@media (max-width: 768px) {}
-
-/* Mobile phones (480px) */
-@media (max-width: 480px) {
-    .contenedorHome {
-        flex-direction: column; // Cambia a columna en móviles
-        align-items: center; // Centra las tarjetas en el eje principal
-        gap: 20px; // Reduce el espacio entre tarjetas para mejor apariencia
-    }
-
-    .tarjeta {
-        width: 90%; // Hace que las tarjetas ocupen casi todo el ancho de la pantalla
-        height: auto; // Permite que la altura se ajuste automáticamente
-    }
-}// Variables de colores
-
-
-
-// Variables de imágenes de fondo por resolución
-$home-background-large: url('../../../media/imagenes/avif/imagenFondoMenu2560X1707.avif');
-$home-background-standard: url('../../../media/imagenes/avif/imagenFondoMenu2560X1708\ .avif');
-$home-background-small: url('../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif');
-$home-background-tablet: url('../../../media/imagenes/avif/imagenFondoMenu1200X800.avif');
-$home-background-mobile: url('../../../media/imagenes/avif/imagenFondoMenu758X512.avif');
-
-
-// Estilos del contenedor principal
-body{
-    margin: 0;
-    background-image: $home-background-large;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    min-height: 100vh; // Usar min-height en vez de height
-    display: flex;
-    flex-direction: column; //
-
-
-    @media (min-width: 2560px) {
-        background-image: $home-background-large;
-    }
-
-    @media (min-width: 1200px) {
-        background-image: $home-background-standard;
-    }
-
-    @media (max-width: 1200px) {
-        background-image: $home-background-small;
-    }
-
-    @media ((min-width: 768px) and (max-width: 1199px)) {
-        background-image: $home-background-tablet;
-    }
-
-    @media (max-width: 767px) {
-        background-image: $home-background-mobile;
-    }
-
-    h1 {
-        color: variables.$color-secundario;
-        margin: 60px 0;
-        font-size: 5rem;
-    }
-
-
-}
-
-#home{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    text-align: center;
-    color: variables.$color-header;
-    position: relative;
-}
-
-// Estilos del contenedor de tarjetas
-// Estilos del contenedor de tarjetas
-.contenedorHome {
-    display: flex;
-    gap: 200px;
-    margin-top: 80px;
-
-    .tarjeta {
-
-        width: 300px;
-        height: 200px;
-        background-color: white;
-        border-radius: 30px;
-
-        img {
-            width: 100%;
-            height: 85%;
-            border-radius: 30px;
+        h1 {
+            color: variables.$color-secundario;
+            margin: 60px 0;
+            font-size: 5rem;
         }
-    }
-}
+
+        #home {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            text-align: center;
+            color: variables.$color-header;
+            position: relative;
+
+        }
+
+        // Estilos del contenedor de tarjetas
+        // Estilos del contenedor de tarjetas
+        .contenedorHome {
+            display: flex;
+            gap: 200px;
+            margin-top: 80px;
+
+            .tarjeta {
+
+                width: 20vw;
+                min-width: 200px;
+                background-color: white;
+                border-radius: 30px;
+
+                img {
+                    width: 100%;
+                    height: 85%;
+                    border-radius: 30px;
+                }
+            }
+        }
 
 
-// Botón de Crear
-.crear {
-    @include boton.red-button;
+        // Botón de Crear
+        .crear {
+            @include boton.red-button;
 
-    position: absolute;
-    bottom: 0;
+            position: absolute;
+            bottom: 0;
 
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-bottom: 30px;
-    border-radius: 30px;
-    width: 100px;
-    justify-content: center;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-bottom: 30px;
+            border-radius: 30px;
+            width: 100px;
+            justify-content: center;
 
-}
+        }
 
-.busqueda {
-    background-color: white;
-    height: 50px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
+        .busqueda {
+            background-color: white;
+            height: 50px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            justify-content: space-between;
 
-/* Media Queries para pantallas pequeñas (moviles) */
-/* Large screens (2560px) */
-@media (max-width: 2560px) {}
+        }
 
-/* Standard screens (1920px) */
-@media (max-width: 1920px) {}
+        /* Media Queries para pantallas pequeñas (moviles) */
+        /* Large screens (2560px) */
+        @media (min-width: 2560px) {
+            h1{
+                font-size: 9rem;
+            }
+            p{
+                font-size: 2rem;
+            }
+            .busqueda{
+                border-radius: 50px;
+                height: 100px;
+                width: 15vw;
+            }
+        }
 
-/* Small screens (1200px) */
-@media (max-width: 1200px) {}
 
-/* Tablets (768px) */
-@media (max-width: 768px) {}
 
-/* Mobile phones (480px) */
-@media (max-width: 480px) {
-    .contenedorHome {
-        flex-direction: column; // Cambia a columna en móviles
-        align-items: center; // Centra las tarjetas en el eje principal
-        gap: 20px; // Reduce el espacio entre tarjetas para mejor apariencia
-    }
+        /* Tablets (768px) */
+        @media (min-width: 768px) and (max-width: 1199px) {
+            h1{
+                font-size: 9rem;
+            }
+            .contenedorHome {
 
-    .tarjeta {
-        width: 90%; // Hace que las tarjetas ocupen casi todo el ancho de la pantalla
-        height: auto; // Permite que la altura se ajuste automáticamente
-    }
-}
+                gap:100px; 
+                .tarjeta {
+                    width: 40vw;
+                }
+            }
+        }
+    
+
+        /* Mobile phones (480px) */
+        @media (max-width: 767px) {
+        h1 {
+                margin: 20px; // Elimina todo el margen
+                font-size: 4rem;
+            }
+
+            .contenedorHome {
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+                margin-bottom: 100px;
+                min-height: 100vh;
+                z-index: 1; 
+
+            }
+
+            .crear {
+                margin-bottom: 10px;
+            }
+        }

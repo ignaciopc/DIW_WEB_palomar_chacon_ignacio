@@ -1,5 +1,7 @@
 @use '../global/variables.scss';
 .footer {
+    z-index: 2; 
+
     background-color: #e6e6e6; // Fondo gris claro
     padding: 20px;
     border-top: 1px solid black; // Línea superior
