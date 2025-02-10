@@ -145,14 +145,8 @@ a {
     padding: 10px 5%;
   }
   .header .nav {
-    margin-left: 100px;
-    gap: 28px;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-  }
-  .header .nav.active {
-    display: flex;
+    gap: 20px;
+    font-size: 2rem;
   }
 }
 picture {
