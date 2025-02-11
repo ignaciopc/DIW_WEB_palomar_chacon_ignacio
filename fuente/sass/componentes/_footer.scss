@@ -1,6 +1,7 @@
 @use '../global/variables.scss';
+
 .footer {
-    z-index: 2; 
+    z-index: 2;
 
     background-color: #e6e6e6; // Fondo gris claro
     padding: 20px;
@@ -19,7 +20,8 @@
         max-width: 1000px;
         margin-bottom: 20px; // Espacio con la info
         border-bottom: 2px solid black;
-        padding-bottom: 30px    ;
+        padding-bottom: 30px;
+
         .logo {
             width: 80px;
             height: 80px;
@@ -35,9 +37,12 @@
             display: flex;
             gap: 15px;
 
-            a{
+            a {
                 font-size: x-large;
+                font-family: "Open Sans", serif;
+
             }
+
             img {
                 width: 1000px; // Tamaño de los íconos
                 height: 100px;
@@ -66,12 +71,27 @@
             h3 {
                 font-size: 16px;
                 font-weight: bold;
+                font-family: "Bebas Neue", serif;
+
             }
 
             p {
-                font-size: 14px;
+                font-family: "Open Sans", serif;
+
+                font-size: 10px;
                 margin: 5px 0;
             }
         }
     }
+}
+
+
+@media (max-width: 767px) {
+
+   .info{
+    p{
+        font-size: 12px;
+    }
+   }
+
 }

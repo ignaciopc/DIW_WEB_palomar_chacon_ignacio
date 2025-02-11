@@ -17,6 +17,7 @@
 .header .nav {
   display: flex;
   gap: 20px;
+  font-family: "Open Sans", serif;
 }
 .header .nav .nav-link {
   color: white;
@@ -185,6 +186,7 @@ a {
 }
 .footer .top-section .social-icons a {
   font-size: x-large;
+  font-family: "Open Sans", serif;
 }
 .footer .top-section .social-icons img {
   width: 1000px;
@@ -209,12 +211,19 @@ a {
 .footer .info div h3 {
   font-size: 16px;
   font-weight: bold;
+  font-family: "Bebas Neue", serif;
 }
 .footer .info div p {
-  font-size: 14px;
+  font-family: "Open Sans", serif;
+  font-size: 10px;
   margin: 5px 0;
 }
 
+@media (max-width: 767px) {
+  .info p {
+    font-size: 12px;
+  }
+}
 body {
   margin: 0;
   background-image: url("../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif");
@@ -316,6 +325,10 @@ body {
   }
 }
 
+p {
+  font-family: "Open Sans", serif;
+}
+
 h1 {
   color: #ff3b30;
   color: #ff3b30;
@@ -410,8 +423,12 @@ h1 {
   }
   .busqueda {
     border-radius: 50px;
-    height: 100px;
+    height: 70px;
     width: 15vw;
+  }
+  .crear {
+    width: 200px;
+    font-size: 30px;
   }
 }
 /* Tablets (768px) */
@@ -425,6 +442,10 @@ h1 {
   .contenedorHome .tarjeta {
     width: 40vw;
   }
+  .crear {
+    width: 200px;
+    font-size: 30px;
+  }
 }
 /* Mobile phones (480px) */
 @media (max-width: 767px) {
@@ -435,7 +456,7 @@ h1 {
   .contenedorHome {
     flex-direction: column;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
     margin-bottom: 100px;
     min-height: 100vh;
     z-index: 1;

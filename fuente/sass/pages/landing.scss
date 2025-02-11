@@ -44,6 +44,8 @@
     @include boton.red-button(20px);
     justify-content: center;
     width: 200px;
+    font-family: "Open Sans", serif;
+
 }
 
 /* Media Queries para pantallas pequeñas (menos de 768px) */
@@ -79,7 +81,7 @@
         #parrafoMotivacional {
             color: white;
 
-            font-size: 1.1rem;
+            font-size : 1rem;
             /* Tamaño de fuente un poco más pequeño para móviles */
           
         }
@@ -93,12 +95,11 @@
     .contenedor {
         
     #parrafoMotivacional{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }
     .registrar button{
         font-size: 20px;
-        width: 200px;
     }
 }
 
@@ -114,13 +115,13 @@
 
 
         #parrafoMotivacional{
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
     }
 
     .registrar button{
-        font-size: 30px;
-        width: 400px;
+        font-size: 25px;
+        width: 300px;
     }
 
 }

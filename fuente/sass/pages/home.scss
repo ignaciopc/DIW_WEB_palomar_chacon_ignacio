@@ -124,6 +124,9 @@ $usar-color-secundario: true;
 
         }
 
+        p{
+            font-family: "Open Sans", serif; 
+        }
         h1 {
             @if $usar-color-secundario{
                 color: variables.$color-secundario;
@@ -210,8 +213,12 @@ $usar-color-secundario: true;
             }
             .busqueda{
                 border-radius: 50px;
-                height: 100px;
+                height: 70px;
                 width: 15vw;
+            }
+            .crear{
+                width: 200px;
+                font-size: 30px;
             }
         }
 
@@ -229,6 +236,10 @@ $usar-color-secundario: true;
                     width: 40vw;
                 }
             }
+            .crear{
+                width: 200px;
+                font-size: 30px;
+            }
         }
     
 
@@ -242,7 +253,7 @@ $usar-color-secundario: true;
             .contenedorHome {
                 flex-direction: column;
                 align-items: center;
-                gap: 50px;
+                gap: 30px;
                 margin-bottom: 100px;
                 min-height: 100vh;
                 z-index: 1; 

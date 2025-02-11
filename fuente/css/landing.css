@@ -74,6 +74,7 @@ a {
 .header .nav {
   display: flex;
   gap: 20px;
+  font-family: "Open Sans", serif;
 }
 .header .nav .nav-link {
   color: white;
@@ -191,6 +192,7 @@ a {
   transition: all 0.3s ease;
   justify-content: center;
   width: 200px;
+  font-family: "Open Sans", serif;
 }
 .registrar button button {
   color: white;
@@ -227,18 +229,17 @@ a {
   }
   .contenedor #parrafoMotivacional {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     /* Tamaño de fuente un poco más pequeño para móviles */
   }
 }
 /* Media Queries para pantallas grandes (escritorios) */
 @media (min-width: 1200px) {
   .contenedor #parrafoMotivacional {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .registrar button {
     font-size: 20px;
-    width: 200px;
   }
 }
 /* Media Queries para pantallas extra grandes (pantallas muy grandes, 2560px y más) */
@@ -247,11 +248,11 @@ a {
     max-width: 50%;
   }
   .contenedor #parrafoMotivacional {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .registrar button {
-    font-size: 30px;
-    width: 400px;
+    font-size: 25px;
+    width: 300px;
   }
 }
 
