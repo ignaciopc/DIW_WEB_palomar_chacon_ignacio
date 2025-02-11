@@ -1,8 +1,8 @@
-@mixin red-button {
+@mixin red-button($size: 16px) {
     display: flex;
     align-items: center;
     padding: 12px 24px; // Espaciado interno (ajusta según necesites)
-    font-size: 16px; // Tamaño de la fuente
+    font-size: $size; // Tamaño de la fuente
     font-weight: bold; // Texto en negrita
     background-color: #ff3B30; // Color de fondo rojo
     color: white; // Color del texto
