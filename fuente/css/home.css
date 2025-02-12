@@ -235,17 +235,19 @@ body {
   flex-direction: column;
 }
 @supports (background-image: url("../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif")) {
-  body {
-    background-image: url("../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif");
-  }
   @media (min-width: 2560px) {
     body {
       background-image: url("../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif");
     }
   }
-  @media (min-width: 1200px) and (max-width: 2559px) {
+  @media (min-width: 1921px) and (max-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/avif/imagenFondoMenu2560X1708 .avif");
+      background-image: url("../../../media/imagenes/avif/imagenFondoMenu2560X1708.avif");
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1920px) {
+    body {
+      background-image: url("../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif");
     }
   }
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -273,9 +275,14 @@ body {
       background-image: url("../../../media/imagenes/webp/imagenFondoMenu2560X1707.webp");
     }
   }
-  @media (min-width: 1200px) and (max-width: 2559px) {
+  @media (min-width: 1921px) and (max-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/webp/imagenFondoMenu2560X1708 .webp");
+      background-image: url("../../../media/imagenes/webp/imagenFondoMenu2560X1708.webp");
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1920px) {
+    body {
+      background-image: url("../../../media/imagenes/webp/imagenFondoMenu1920X1281.webp");
     }
   }
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -303,9 +310,14 @@ body {
       background-image: url("../../../media/imagenes/jpg/imagenFondoMenu2560X1707.jpg");
     }
   }
-  @media (min-width: 1200px) and (max-width: 2559px) {
+  @media (min-width: 1921px) and (max-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu2560X1708 .jpg");
+      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu2560X1708.jpg");
+    }
+  }
+  @media (min-width: 1200px) and (max-width: 1920px) {
+    body {
+      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu1920X1281.jpg");
     }
   }
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -429,6 +441,21 @@ h1 {
   .crear {
     width: 200px;
     font-size: 30px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 2559px) {
+  .contenedorHome .tarjeta {
+    width: 30vw;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .crear {
+    width: 150px;
+    font-size: 20px;
+  }
+  h1 {
+    margin-top: 10px;
   }
 }
 /* Tablets (768px) */

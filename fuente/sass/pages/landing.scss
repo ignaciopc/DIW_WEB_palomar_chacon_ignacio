@@ -81,7 +81,7 @@
         #parrafoMotivacional {
             color: white;
 
-            font-size : 1rem;
+            font-size : variables.$tamanio-standar;
             /* Tamaño de fuente un poco más pequeño para móviles */
           
         }
@@ -95,7 +95,7 @@
     .contenedor {
         
     #parrafoMotivacional{
-        font-size: 1rem;
+        font-size: variables.$tamanio-standar;
     }
 }
     .registrar button{
@@ -115,7 +115,7 @@
 
 
         #parrafoMotivacional{
-            font-size: 2rem;
+            font-size: variables.$tamanio-doble;
         }
     }
 

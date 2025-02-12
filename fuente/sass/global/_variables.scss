@@ -8,3 +8,43 @@ $nav-link-hover-color: #ccc;
 $logo-bg-color: #888;
 $font-family: 'Arial, sans-serif';
 $border-radius: 10px;
+$tamanio-standar:1rem;
+$tamanio-doble:2rem;
+$tamanio-cuatro:4rem;
+$tamanio-ocho:8rem;
+$tamanio-nueve:9rem;
+
+
+// Mapa de imágenes de fondo por resolución y formato
+$home-backgrounds: (
+    large: (
+        avif: url('../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif'),
+        webp: url('../../../media/imagenes/webp/imagenFondoMenu2560X1707.webp'),
+        jpg: url('../../../media/imagenes/jpg/imagenFondoMenu2560X1707.jpg')
+    ),
+    standard: (
+        avif: url('../../../media/imagenes/avif/imagenFondoMenu2560X1708.avif'),
+        webp: url('../../../media/imagenes/webp/imagenFondoMenu2560X1708.webp'),
+        jpg: url('../../../media/imagenes/jpg/imagenFondoMenu2560X1708.jpg')
+    ),
+    small: (
+        avif: url('../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif'),
+        webp: url('../../../media/imagenes/webp/imagenFondoMenu1920X1281.webp'),
+        jpg: url('../../../media/imagenes/jpg/imagenFondoMenu1920X1281.jpg')
+    ),
+    tablet: (
+        avif: url('../../../media/imagenes/avif/imagenFondoMenu1200X800.avif'),
+        webp: url('../../../media/imagenes/webp/imagenFondoMenu1200X800.webp'),
+        jpg: url('../../../media/imagenes/jpg/imagenFondoMenu1200X800.jpg')
+    ),
+    mobile: (
+        avif: url('../../../media/imagenes/avif/imagenFondoMenu758X512.avif'),
+        webp: url('../../../media/imagenes/webp/imagenFondoMenu758X512.webp'),
+        jpg: url('../../../media/imagenes/jpg/imagenFondoMenu758X512.jpg')
+    ),
+    xss: (
+        avif: url('../../../media/imagenes/avif/imagenFondoMenu480X320.avif'),
+        webp: url('../../../media/imagenes/webp/imagenFondoMenu480X320.webp'),
+        jpg: url('../../../media/imagenes/jpg/imagenFondoMenu480X320.jpg')
+    )
+);
