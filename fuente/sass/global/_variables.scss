@@ -18,33 +18,33 @@ $tamanio-nueve:9rem;
 // Mapa de imágenes de fondo por resolución y formato
 $home-backgrounds: (
     large: (
-        avif: url('../../media/imagenes/avif/imagenFondoMenu7580x5050.avif'),
-        webp: url('../../media/imagenes/webp/imagenFondoMenu7580x5050.webp'),
-        jpg:  url('../../media/imagenes/jpg/imagenFondoMenu7580x5050.jpg')
+        avif: url('../media/imagenes/avif/imagenFondoMenu7580x5050.avif'),
+        webp: url('../media/imagenes/webp/imagenFondoMenu7580x5050.webp'),
+        jpg:  url('../media/imagenes/jpg/imagenFondoMenu7580x5050.jpg')
     ),
     standard: (
-        avif: url('../../media/imagenes/avif/imagenFondoMenu2560X1708.avif'),
-        webp: url('../../media/imagenes/webp/imagenFondoMenu2560X1708.webp'),
-        jpg: url('../../media/imagenes/jpg/imagenFondoMenu2560X1708.jpg')
+        avif: url('../media/imagenes/avif/imagenFondoMenu2560X1708.avif'),
+        webp: url('../media/imagenes/webp/imagenFondoMenu2560X1708.webp'),
+        jpg: url('../media/imagenes/jpg/imagenFondoMenu2560X1708.jpg')
     ),
     small: (
-        avif: url('../../media/imagenes/avif/imagenFondoMenu1920X1281.avif'),
-        webp: url('../../media/imagenes/webp/imagenFondoMenu1920X1281.webp'),
-        jpg: url('../../media/imagenes/jpg/imagenFondoMenu1920X1281.jpg')
+        avif: url('../media/imagenes/avif/imagenFondoMenu1920X1281.avif'),
+        webp: url('../media/imagenes/webp/imagenFondoMenu1920X1281.webp'),
+        jpg: url('../media/imagenes/jpg/imagenFondoMenu1920X1281.jpg')
     ),
     tablet: (
-        avif: url('../../media/imagenes/avif/imagenFondoMenu1200X800.avif'),
-        webp: url('../../media/imagenes/webp/imagenFondoMenu1200X800.webp'),
-        jpg: url('../../media/imagenes/jpg/imagenFondoMenu1200X800.jpg')
+        avif: url('../media/imagenes/avif/imagenFondoMenu1200X800.avif'),
+        webp: url('../media/imagenes/webp/imagenFondoMenu1200X800.webp'),
+        jpg: url('../media/imagenes/jpg/imagenFondoMenu1200X800.jpg')
     ),
     mobile: (
-        avif: url('../../media/imagenes/avif/imagenFondoMenu758X512.avif'),
-        webp: url('../../media/imagenes/webp/imagenFondoMenu758X512.webp'),
-        jpg: url('../../media/imagenes/jpg/imagenFondoMenu758X512.jpg')
+        avif: url('../media/imagenes/avif/imagenFondoMenu758X512.avif'),
+        webp: url('../media/imagenes/webp/imagenFondoMenu758X512.webp'),
+        jpg: url('../media/imagenes/jpg/imagenFondoMenu758X512.jpg')
     ),
     xss: (
-        avif: url('../../media/imagenes/avif/imagenFondoMenu480X320.avif'),
-        webp: url('../../media/imagenes/webp/imagenFondoMenu480X320.webp'),
-        jpg: url('../../media/imagenes/jpg/imagenFondoMenu480X320.jpg')
+        avif: url('../media/imagenes/avif/imagenFondoMenu480X320.avif'),
+        webp: url('../media/imagenes/webp/imagenFondoMenu480X320.webp'),
+        jpg: url('../media/imagenes/jpg/imagenFondoMenu480X320.jpg')
     )
 );

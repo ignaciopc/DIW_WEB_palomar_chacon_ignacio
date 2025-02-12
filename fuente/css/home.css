@@ -226,7 +226,7 @@ a {
 }
 body {
   margin: 0;
-  background-image: url("../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif");
+  background-image: url("../media/imagenes/avif/imagenFondoMenu7580x5050.avif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -234,105 +234,105 @@ body {
   display: flex;
   flex-direction: column;
 }
-@supports (background-image: url("../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif")) {
+@supports (background-image: url("../media/imagenes/avif/imagenFondoMenu7580x5050.avif")) {
   @media (min-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif");
+      background-image: url("../media/imagenes/avif/imagenFondoMenu7580x5050.avif");
     }
   }
   @media (min-width: 1921px) and (max-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/avif/imagenFondoMenu2560X1708.avif");
+      background-image: url("../media/imagenes/avif/imagenFondoMenu2560X1708.avif");
     }
   }
   @media (min-width: 1200px) and (max-width: 1920px) {
     body {
-      background-image: url("../../../media/imagenes/avif/imagenFondoMenu1920X1281.avif");
+      background-image: url("../media/imagenes/avif/imagenFondoMenu1920X1281.avif");
     }
   }
   @media (min-width: 768px) and (max-width: 1199px) {
     body {
-      background-image: url("../../../media/imagenes/avif/imagenFondoMenu1200X800.avif");
+      background-image: url("../media/imagenes/avif/imagenFondoMenu1200X800.avif");
     }
   }
   @media (max-width: 767px) {
     body {
-      background-image: url("../../../media/imagenes/avif/imagenFondoMenu758X512.avif");
+      background-image: url("../media/imagenes/avif/imagenFondoMenu758X512.avif");
     }
   }
   @media (max-width: 480px) {
     body {
-      background-image: url("../../../media/imagenes/avif/imagenFondoMenu480X320.avif");
+      background-image: url("../media/imagenes/avif/imagenFondoMenu480X320.avif");
     }
   }
 }
-@supports not (background-image: url("../../../media/imagenes/avif/imagenFondoMenu7580x5050.avif")) {
+@supports not (background-image: url("../media/imagenes/avif/imagenFondoMenu7580x5050.avif")) {
   body {
-    background-image: url("../../../media/imagenes/webp/imagenFondoMenu2560X1707.webp");
+    background-image: url("../media/imagenes/webp/imagenFondoMenu7580x5050.webp");
   }
   @media (min-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/webp/imagenFondoMenu2560X1707.webp");
+      background-image: url("../media/imagenes/webp/imagenFondoMenu7580x5050.webp");
     }
   }
   @media (min-width: 1921px) and (max-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/webp/imagenFondoMenu2560X1708.webp");
+      background-image: url("../media/imagenes/webp/imagenFondoMenu2560X1708.webp");
     }
   }
   @media (min-width: 1200px) and (max-width: 1920px) {
     body {
-      background-image: url("../../../media/imagenes/webp/imagenFondoMenu1920X1281.webp");
+      background-image: url("../media/imagenes/webp/imagenFondoMenu1920X1281.webp");
     }
   }
   @media (min-width: 768px) and (max-width: 1199px) {
     body {
-      background-image: url("../../../media/imagenes/webp/imagenFondoMenu1200X800.webp");
+      background-image: url("../media/imagenes/webp/imagenFondoMenu1200X800.webp");
     }
   }
   @media (max-width: 767px) {
     body {
-      background-image: url("../../../media/imagenes/webp/imagenFondoMenu758X512.webp");
+      background-image: url("../media/imagenes/webp/imagenFondoMenu758X512.webp");
     }
   }
   @media (max-width: 480px) {
     body {
-      background-image: url("../../../media/imagenes/webp/imagenFondoMenu480X320.webp");
+      background-image: url("../media/imagenes/webp/imagenFondoMenu480X320.webp");
     }
   }
 }
-@supports not (background-image: url("../../../media/imagenes/webp/imagenFondoMenu2560X1707.webp")) {
+@supports not (background-image: url("../media/imagenes/webp/imagenFondoMenu7580x5050.webp")) {
   body {
-    background-image: url("../../../media/imagenes/jpg/imagenFondoMenu2560X1707.jpg");
+    background-image: url("../media/imagenes/jpg/imagenFondoMenu7580x5050.jpg");
   }
   @media (min-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu2560X1707.jpg");
+      background-image: url("../media/imagenes/jpg/imagenFondoMenu7580x5050.jpg");
     }
   }
   @media (min-width: 1921px) and (max-width: 2560px) {
     body {
-      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu2560X1708.jpg");
+      background-image: url("../media/imagenes/jpg/imagenFondoMenu2560X1708.jpg");
     }
   }
   @media (min-width: 1200px) and (max-width: 1920px) {
     body {
-      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu1920X1281.jpg");
+      background-image: url("../media/imagenes/jpg/imagenFondoMenu1920X1281.jpg");
     }
   }
   @media (min-width: 768px) and (max-width: 1199px) {
     body {
-      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu1200X800.jpg");
+      background-image: url("../media/imagenes/jpg/imagenFondoMenu1200X800.jpg");
     }
   }
   @media (max-width: 767px) {
     body {
-      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu758X512.jpg");
+      background-image: url("../media/imagenes/jpg/imagenFondoMenu758X512.jpg");
     }
   }
   @media (max-width: 480px) {
     body {
-      background-image: url("../../../media/imagenes/jpg/imagenFondoMenu480X320.jpg");
+      background-image: url("../media/imagenes/jpg/imagenFondoMenu480X320.jpg");
     }
   }
 }
