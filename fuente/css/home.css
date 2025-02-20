@@ -419,7 +419,7 @@ h1 {
     z-index: 1;
   }
   .contenedorHome .tarjeta {
-    width: 59vw;
+    width: 80vw;
   }
   .crear {
     width: 150px;
@@ -442,6 +442,8 @@ h1 {
   }
   .contenedorHome .tarjeta {
     margin-top: 10px;
-    width: 70vw;
+    width: 80vw;
   }
 }
+
+/*# sourceMappingURL=home.css.map */
