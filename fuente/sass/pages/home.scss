@@ -1,288 +1,225 @@
-        // Variables de colores
-        @use "../componentes/header.scss";
-        @use "../base/predeterminado.scss";
-        @use "../global/variables.scss";
-        @use "../global/funciones.scss";
-        @use "../componentes/footer.scss";
-        @use "../componentes/boton.scss";
+// Variables de colores
+@use "../componentes/header.scss";
+@use "../base/predeterminado.scss";
+@use "../global/variables.scss";
+@use "../global/funciones.scss";
+@use "../componentes/footer.scss";
+@use "../componentes/boton.scss";
 
+// Variables de imágenes de fondo por resolución
+$usar-color-secundario: true;
 
-        // Variables de imágenes de fondo por resolución
-        // Variables de imágenes de fondo por resolución
+// Estilos del contenedor principal
+body {
+    margin: 0;
+    min-height: 100vh; // Usar min-height en vez de height
+    display: flex;
+    flex-direction: column;
 
+    // Capa de fondo difuminada
+    &::before {
+        content: "";
+        position: fixed; // Fija la imagen al viewport
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: map-get(map-get(variables.$home-backgrounds, large), avif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
 
-        $usar-color-secundario: true;
+        // Aplicar el efecto de desenfoque
+        filter: blur(4px); // Ajusta el valor según el nivel de difuminado deseado
+        z-index: -1; // Asegura que la imagen esté detrás del contenido
+    }
 
+    // Capa de superposición opcional (para oscurecer ligeramente la imagen)
+    &::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3); // Color de superposición semi-transparente
+        z-index: -1; // Asegura que esta capa también esté detrás del contenido
+    }
+}
 
-        // Estilos del contenedor principal
-        body {
-            margin: 0;
-            background-image: map-get(map-get(variables.$home-backgrounds, large), avif);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            min-height: 100vh; // Usar min-height en vez de height
-            display: flex;
-            flex-direction: column; //
+p {
+    font-family: "Open Sans", serif;
+}
 
-            // Carga de imágenes AVIF si el navegador las soporta
-            @supports (background-image: map-get(map-get(variables.$home-backgrounds, large), avif)) {
-                @media (min-width: 2560px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, large), avif);
-                }
+h1 {
+    @if $usar-color-secundario {
+        color: variables.$color-secundario;
+    } @else {
+        color: variables.$color-principal;
+    }
+    margin: 60px;
+    font-size: funciones.calcular-tamaño-fuente(1500);
+    font-family: "Bebas Neue", serif;
+    z-index: 1; // Asegura que el texto esté sobre las capas de fondo
+}
 
-                @media (min-width: 1921px) and (max-width: 2560px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, standard), avif);
-                }
+#home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    color: variables.$color-principal;
+    position: relative;
+    z-index: 1; // Asegura que el contenido esté por encima de las capas de fondo
+}
 
-                @media (min-width: 1200px) and (max-width: 1920px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, small), avif);
-                }
+// Estilos del contenedor de tarjetas
+.contenedorHome {
+    display: flex;
+    gap: 200px;
+    margin-top: 50px;
 
-                @media (min-width: 768px) and (max-width: 1199px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, tablet), avif);
-                }
+    .tarjeta {
+        width: 20vw;
+        min-width: 200px;
+        background-color: white;
+        border-radius: 30px;
 
-                @media (max-width: 767px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, mobile), avif);
-                }
-
-                @media (max-width: 480px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, xss), avif);
-                }
-            }
-
-            @supports not (background-image: map-get(map-get(variables.$home-backgrounds, large), avif)) {
-                background-image: map-get(map-get(variables.$home-backgrounds, large), webp);
-
-                @media (min-width: 2560px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, large), webp);
-                }
-
-                @media (min-width: 1921px) and (max-width: 2560px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, standard), webp);
-                }
-
-                @media (min-width: 1200px) and (max-width: 1920px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, small), webp);
-                }
-
-                @media (min-width: 768px) and (max-width: 1199px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, tablet), webp);
-                }
-
-                @media (max-width: 767px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, mobile), webp);
-                }
-
-                @media (max-width: 480px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, xss), webp);
-                }
-            }
-
-            @supports not (background-image: map-get(map-get(variables.$home-backgrounds, large), webp)) {
-                background-image: map-get(map-get(variables.$home-backgrounds, large), jpg);
-
-                @media (min-width: 2560px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, large), jpg);
-                }
-
-                @media (min-width: 1921px) and (max-width: 2560px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, standard), jpg);
-                }
-
-                @media (min-width: 1200px) and (max-width: 1920px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, small), jpg);
-                }
-
-                @media (min-width: 768px) and (max-width: 1199px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, tablet), jpg);
-                }
-
-                @media (max-width: 767px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, mobile), jpg);
-                }
-
-                @media (max-width: 480px) {
-                    background-image: map-get(map-get(variables.$home-backgrounds, xss), jpg);
-                }
-            }
-        }
-
-        p {
-            font-family: "Open Sans", serif;
-        }
-
-        h1 {
-            @if $usar-color-secundario {
-                color: variables.$color-secundario;
-
-            }
-
-            @else {
-                color: variables.$color-principal;
-            }
-
-            color: variables.$color-secundario;
-            margin: 60px;
-            font-size: variables.$tamanio-ocho;
-            font-family: "Bebas Neue",
-            serif;
-        }
-
-        #home {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            text-align: center;
-            color: variables.$color-principal;
-            position: relative;
-
-        }
-
-        // Estilos del contenedor de tarjetas
-        // Estilos del contenedor de tarjetas
-        .contenedorHome {
-            display: flex;
-            gap: 200px;
-            margin-top: 80px;
-
-            .tarjeta {
-
-                width: 20vw;
-                min-width: 200px;
-                background-color: white;
-                border-radius: 30px;
-
-                img {
-                    width: 100%;
-                    height: 85%;
-                    border-radius: 30px;
-                }
-            }
-        }
-
-
-        // Botón de Crear
-        .crear {
-            @include boton.red-button;
-
-            position: absolute;
-            bottom: 0;
-
-            padding: 10px 20px;
-            cursor: pointer;
-            margin-bottom: 30px;
+        img {
+            width: 100%;
+            height: 85%;
             border-radius: 30px;
-            width: 100px;
-            justify-content: center;
-
         }
+    }
+}
 
-        .busqueda {
-            background-color: white;
-            height: 50px;
-            border-radius: 30px;
-            display: flex;
-            align-items: center;
-            padding: 20px;
-            justify-content: space-between;
+// Botón de Crear
+.crear {
+    @include boton.red-button;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 100px;
+    justify-content: center;
+    z-index: 1; // Asegura que el botón esté sobre las capas de fondo
+}
 
+.busqueda {
+    background-color: white;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    z-index: 1; // Asegura que la barra de búsqueda esté sobre las capas de fondo
+}
+
+/* Media Queries para pantallas pequeñas (móviles) */
+/* Large screens (2560px) */
+@media (min-width: 2560px) {
+    h1 {
+        font-size: funciones.calcular-tamaño-fuente(2000);
+    }
+    p {
+        font-size: variables.$tamanio-doble;
+    }
+    .busqueda {
+        border-radius: 50px;
+        height: 70px;
+        width: 15vw;
+    }
+    .crear {
+        width: 200px;
+        font-size: 30px;
+    }
+
+    .contenedorHome {
+        .tarjeta {
+            width: 30vw;
         }
+    }
+}
 
-        /* Media Queries para pantallas pequeñas (moviles) */
-        /* Large screens (2560px) */
-        @media (min-width: 2560px) {
-            h1 {
-                font-size: funciones.calcular-tamaño-fuente(2560);
-            }
-
-            p {
-                font-size: variables.$tamanio-doble;
-            }
-
-            .busqueda {
-                border-radius: 50px;
-                height: 70px;
-                width: 15vw;
-            }
-
-            .crear {
-                width: 200px;
-                font-size: 30px;
-            }
-
-
+@media (min-width: 1200px) and (max-width: 2559px) {
+    .contenedorHome {
+        .tarjeta {
+            width: 30vw;
         }
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    .crear {
+        width: 150px;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 5rem;
+        margin-top: 50px;
+    }
+}
 
-
-        @media (min-width: 1200px) and (max-width: 2559px) {
-            .contenedorHome {
-
-                .tarjeta {
-
-                    width: 30vw;
-
-                }
-            }
-
-            p {
-                font-size: 1.5rem;
-            }
-
-            .crear {
-                width: 150px;
-                font-size: 20px;
-
-            }
-
-            h1 {
-                margin-top: 10px;
-            }
+/* Tablets (768px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+    h1 {
+        font-size: variables.$tamanio-cuatro;
+    }
+    .contenedorHome {
+        gap: 100px;
+        .tarjeta {
+            width: 40vw;
         }
+    }
+    .crear {
+        width: 200px;
+        font-size: 30px;
+    }
+}
 
-        /* Tablets (768px) */
-        @media (min-width: 768px) and (max-width: 1199px) {
-            h1 {
-                font-size: variables.$tamanio-nueve;
-            }
+$nombre: "contenedorHome";
 
-            .contenedorHome {
+// Moviles medianos y tablets pequeñas
+@media (min-width: 480px) and (max-width: 767px) {
+    h1 {
+        margin: 20px; // Elimina todo el margen
+        font-size: 4rem;
+    }
+    .#{$nombre} {
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 10px;
+        z-index: 1;
+    }
+    .contenedorHome .tarjeta {
+        width: 59vw;
+    }
+    .crear {
+        width: 150px;
+        font-size: 20px;
+    }
+}
 
-                gap: 100px;
-
-                .tarjeta {
-                    width: 40vw;
-                }
-            }
-
-            .crear {
-                width: 200px;
-                font-size: 30px;
-            }
+/* Mobile phones (480px) */
+@media (max-width: 479px) {
+    h1 {
+        margin: 10px; // Elimina todo el margen
+        font-size: 3rem;
+    }
+    .#{$nombre} {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 30px;
+        z-index: 1;
+        margin-top: 10px;
+        .tarjeta {
+            margin-top: 10px;
+            width: 70vw;
         }
+    }
+ 
 
-        $nombre: "contenedorHome";
-        /* Mobile phones (480px) */
-        @media (max-width: 767px) {
-            h1 {
-                margin: 20px; // Elimina todo el margen
-                font-size: variables.$tamanio-cuatro;
-            }
-
-            .#{$nombre}{
-                flex-direction: column;
-                align-items: center;
-                gap: 30px;
-                margin-bottom: 100px;
-                min-height: 100vh;
-                z-index: 1;
-
-            }
-
-            .crear {
-                margin-bottom: 10px;
-            }
-        }
+}

@@ -2,14 +2,12 @@
 
 .footer {
     z-index: 2;
-
     background-color: #e6e6e6; // Fondo gris claro
     padding: 20px;
     border-top: 1px solid black; // Línea superior
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 
     // Sección superior con logo e íconos
     .top-section {
@@ -31,6 +29,7 @@
             justify-content: center;
             font-weight: bold;
             color: white;
+            font-size: 2rem; // Aumenta el tamaño del texto del logo
         }
 
         .social-icons {
@@ -38,19 +37,11 @@
             gap: 15px;
 
             a {
-                font-size: x-large;
-                font-family: "Open Sans", serif;
-
-            }
-
-            img {
-                width: 1000px; // Tamaño de los íconos
-                height: 100px;
-                cursor: pointer;
+                font-size: 2rem; // Ajusta el tamaño de los íconos sociales
                 transition: transform 0.3s ease;
 
                 &:hover {
-                    transform: scale(1.1);
+                    transform: scale(1.2); // Aumenta el efecto hover
                 }
             }
         }
@@ -59,39 +50,48 @@
     // Sección inferior con la información en columnas
     .info {
         display: flex;
-        justify-content: space-around;
+        justify-content: center; // Centra todas las secciones horizontalmente
         width: 100%;
         max-width: 800px;
-        text-align: left;
+        text-align: left; // Mantén el texto alineado a la izquierda dentro de cada sección
 
-        div {
-            flex: 1;
-            margin: 0 10px;
+        section {
+            flex: 1; // Distribuye equitativamente el espacio entre las secciones
+            margin: 0 10px; // Añade espacio entre las secciones
 
             h3 {
-                font-size: 16px;
+                font-size: 1.1rem; // Aumenta el tamaño del título
                 font-weight: bold;
                 font-family: "Bebas Neue", serif;
-
+                margin-bottom: 10px; // Añade espacio entre el título y los párrafos
             }
 
             p {
                 font-family: "Open Sans", serif;
-
-                font-size: 10px;
-                margin: 5px 0;
+                font-size: 0.9rem; // Aumenta el tamaño del texto para mejor legibilidad
+                line-height: 1.6; // Añade espacio entre líneas para mejorar la lectura
+                margin-top: 5px; // Reduce el margen excesivo
+                color: #333; // Oscurece el color del texto para mayor contraste
             }
         }
     }
 }
 
-
+// Media Queries para pantallas pequeñas
 @media (max-width: 767px) {
+    .footer {
+        .info {
+            flex-direction: column; // Apila las secciones verticalmente
+            align-items: center; // Centra todas las secciones verticalmente
+            text-align: center;
+            section {
+                margin-bottom: 20px; // Añade espacio entre las secciones
 
-   .info{
-    p{
-        font-size: 12px;
+                p {
+                    font-size: 1rem; // Ajusta el tamaño del texto en móviles
+                    line-height: 1.5; // Mantén el mismo espaciado entre líneas
+                }
+            }
+        }
     }
-   }
-
 }
