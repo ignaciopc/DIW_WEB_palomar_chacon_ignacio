@@ -1,0 +1,110 @@
+@use "../componentes/header.scss";
+@use "../base/predeterminado.scss";
+@use "../global/variables.scss";
+@use "../global/funciones.scss";
+@use "../componentes/footer.scss";
+@use "../componentes/boton.scss";
+
+body {
+    height: 100%; // Asegura que html y body ocupen toda la altura de la ventana
+}
+
+body {
+    display: flex; // Aplica Flexbox al cuerpo
+    flex-direction: column; // Coloca los elementos en columna
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+}
+
+main {
+    flex: 1; // Hace que el contenido principal ocupe todo el espacio disponible
+    display: flex;
+    justify-content: center; // Centra horizontalmente el formulario
+    align-items: center; // Centra verticalmente el formulario
+    min-height: 80vh; // Asegura que haya suficiente espacio para centrar
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.image-container {
+    position: relative; /* Necesario para que los elementos posicionados absolutamente se refieran a este contenedor */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.icon-top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 24px;
+    color: #333;
+    z-index: 1; /* Asegura que el icono esté por encima de la imagen */
+}
+
+picture img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Agrega padding a los lados para separar los iconos de los márgenes */
+
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #007bff;
+}
+
+.post{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#profile {
+    font-size: 25px; /* Cambia el tamaño según tus necesidades */
+}
+
+@media (max-width: 100px) {
+.post{
+    flex-direction: column;
+}
+.icons {
+
+margin-top: 30px;
+}
+
+}

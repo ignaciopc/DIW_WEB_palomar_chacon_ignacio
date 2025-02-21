@@ -1,0 +1,440 @@
+@charset "UTF-8";
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2C2C2E;
+  color: white;
+  padding: 10px 5%;
+  height: 10vh;
+}
+.header .logo {
+  background-color: #555;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 2rem;
+}
+.header .nav {
+  display: flex;
+  gap: 20px;
+  font-family: "Open Sans", serif;
+}
+.header .nav .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.header .nav .nav-link:hover {
+  color: #ccc;
+}
+
+@media (min-width: 2560px) {
+  .header {
+    padding: 10px 10%;
+  }
+  .header .logo {
+    font-size: 3rem;
+  }
+  .header .nav {
+    gap: 100px;
+  }
+  .header .nav .nav-link {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .header {
+    padding: 10px 8%;
+  }
+  .header .logo {
+    font-size: 3rem;
+  }
+  .header .nav {
+    gap: 100px;
+  }
+  .header .nav .nav-link {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1919px) {
+  .header {
+    padding: 10px 6%;
+  }
+  .header .logo {
+    font-size: 2.5rem;
+  }
+  .header .nav {
+    gap: 100px;
+  }
+  .header .nav .nav-link {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .header {
+    padding: 10px 5%;
+  }
+  .header .logo {
+    font-size: 2rem;
+  }
+  .header .nav {
+    gap: 50px;
+  }
+  .header .nav .nav-link {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .header {
+    padding: 10px 5%;
+  }
+  .header .logo {
+    font-size: 1rem;
+  }
+  .header .nav {
+    gap: 20px;
+  }
+  .header .nav .nav-link {
+    font-size: 1.5rem;
+  }
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Eliminar los bordes de los botones y formularios */
+button,
+input,
+select,
+textarea {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+/* 3. Ajustar la tipografía */
+body {
+  font-family: sans-serif;
+}
+
+/* 4. Eliminar el estilo de lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 5. Asegurarse de que las imágenes y otros medios no desborden */
+img,
+video,
+audio {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 6. Controlar la apariencia de las tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* 7. Eliminar los bordes predeterminados de los formularios */
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* 8. Evitar que los enlaces cambien de color cuando se visitan */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  z-index: 2;
+  background-color: #e6e6e6;
+  padding: 20px;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  padding-bottom: 30px;
+}
+.footer .top-section .logo {
+  width: 80px;
+  height: 80px;
+  background-color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 2rem;
+}
+.footer .top-section .social-icons {
+  display: flex;
+  gap: 15px;
+}
+.footer .top-section .social-icons a {
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+.footer .top-section .social-icons a:hover {
+  transform: scale(1.2);
+}
+.footer .info {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+}
+.footer .info section {
+  flex: 1;
+  margin: 0 10px;
+}
+.footer .info section h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: "Bebas Neue", serif;
+  margin-bottom: 10px;
+}
+.footer .info section p {
+  font-family: "Open Sans", serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-top: 5px;
+  color: #333;
+}
+
+@media (max-width: 767px) {
+  .footer .info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .info section {
+    margin-bottom: 20px;
+  }
+  .footer .info section p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #F4F4F4;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+body {
+  background-color: #F4F4F4;
+}
+
+.container {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  text-align: left;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  background-color: transparent;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-bottom-color: red;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#recordar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Estilo específico para el enlace "Registro" */
+#registro {
+  text-decoration: underline;
+}
+
+.btn-login {
+  background-color: red;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: auto;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-login:hover {
+  background-color: darkred;
+}
+
+@media (min-width: 1600px) {
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+  }
+  .container {
+    width: 40%;
+    height: 50vh;
+    padding: 30px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .input-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .input-group label {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .input-group input {
+    font-size: 2rem;
+  }
+  .btn-login {
+    font-size: 1.4rem;
+    padding: 12px 25px;
+    width: 30%;
+  }
+  #registro {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  #recordar {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 100px;
+  }
+  .container {
+    width: 70%;
+    height: 50vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .input-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .input-group label {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  .input-group input {
+    font-size: 2rem;
+  }
+  .btn-login {
+    font-size: 1.4rem;
+    padding: 12px 25px;
+    width: 30%;
+  }
+  #registro {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  #recordar {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 800px) {
+  .container {
+    width: 90%;
+    padding: 20px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  .input-group input {
+    font-size: 0.9rem;
+  }
+  .btn-login {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+    height: auto;
+  }
+  #registro {
+    font-size: 0.9rem;
+  }
+}
+
+/*# sourceMappingURL=login.css.map */

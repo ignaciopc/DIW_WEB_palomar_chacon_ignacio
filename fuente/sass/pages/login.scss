@@ -1,0 +1,230 @@
+// Variables de colores
+@use "../componentes/header.scss";
+@use "../base/predeterminado.scss";
+@use "../global/variables.scss";
+@use "../global/funciones.scss";
+@use "../componentes/footer.scss";
+@use "../componentes/boton.scss";
+
+body {
+    height: 100%; // Asegura que html y body ocupen toda la altura de la ventana
+}
+
+body {
+    display: flex; // Aplica Flexbox al cuerpo
+    flex-direction: column; // Coloca los elementos en columna
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+}
+
+main {
+    flex: 1; // Hace que el contenido principal ocupe todo el espacio disponible
+    display: flex;
+    justify-content: center; // Centra horizontalmente el formulario
+    align-items: center; // Centra verticalmente el formulario
+    min-height: 80vh; // Asegura que haya suficiente espacio para centrar
+}
+
+body {
+    background-color: #F4F4F4;
+}
+
+.container {
+    margin-top: 10vh; // Espaciado vertical reducido
+    margin-bottom: 10vh; // Espaciado vertical reducido
+    margin-left: auto; // Centrado horizontalmente
+    margin-right: auto; // Centrado horizontalmente
+    background-color: white;
+    padding: 40px; // Espaciado interno
+    border-radius: 10px; // Bordes redondeados
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); // Sombra suave
+    width: 500px; // Ancho del contenedor
+    text-align: left; // Alineación general a la izquierda
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px; // Espaciado entre grupos de entrada
+    display: flex;
+    flex-direction: column; // Alinea los elementos en columna
+}
+
+.input-group label {
+    margin-bottom: 10px; // Espaciado entre el label y el input
+    font-size: 1rem; // Tamaño de fuente del label
+    font-weight: bold; // Etiquetas en negrita para mejor legibilidad
+    text-align: left; // Alineación a la izquierda
+}
+
+.input-group input {
+    width: 100%; // Ancho completo del input
+    padding: 10px 0; // Padding solo arriba y abajo (sin lados)
+    border: none; // Elimina todos los bordes
+    border-bottom: 2px solid #ccc; // Añade solo un borde inferior
+    font-size: 1rem; // Tamaño de fuente del input
+    outline: none; // Elimina el resaltado azul al hacer foco
+    background-color: transparent; // Fondo transparente
+    transition: border-color 0.3s ease; // Transición suave para el hover/foco
+}
+
+.input-group input:focus {
+    border-bottom-color: red; // Cambia el color del borde al hacer foco
+}
+
+.checkbox-group {
+    display: flex; // Usa Flexbox para organizar los elementos
+    align-items: center; // Alinea verticalmente los elementos
+    justify-content: space-between; // Distribuye el espacio entre los elementos
+    margin-bottom: 20px; // Espaciado mayor
+}
+
+#recordar {
+    display: flex; // Usa Flexbox para alinear el checkbox y el texto
+    align-items: center; // Alinea verticalmente el checkbox y el texto
+    gap: 10px; // Espacio entre el checkbox y el texto
+
+}
+
+/* Estilo específico para el enlace "Registro" */
+#registro {
+    text-decoration: underline; // Subraya el texto
+
+}
+
+
+.btn-login {
+    background-color: red;
+    color: white;
+    padding: 15px 30px; // Botón más grande
+    border: none;
+    border-radius: 30px; // Bordes más redondeados
+    cursor: pointer;
+    font-size: 1rem; // Tamaño de fuente más grande
+    width: auto; // Ancho automático para ajustarse al contenido
+    height: 50px; // Altura fija
+    text-align: center; // Texto del botón centrado
+    justify-content: center;
+}
+
+.btn-login:hover {
+    background-color: darkred;
+}
+@media (min-width: 1600px) {
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 100px;
+    }
+
+    .container {
+        width: 40%; // Ancho más grande para aprovechar mejor el espacio
+        height: 50vh; // Altura del 50% de la ventana
+        padding: 30px; // Espaciado interno ligeramente mayor
+        margin-top: auto; // Centrado vertical automático
+        display: flex; // Usa Flexbox para organizar el contenido interno
+        flex-direction: column; // Alinea los elementos en columna
+        box-sizing: border-box; // Asegura que el padding no afecte el tamaño total
+    }
+
+    .input-group {
+        margin-bottom: 20px; // Espaciado entre grupos de entrada
+        width: 100%; // Asegura que los inputs ocupen todo el ancho del contenedor
+    }
+
+    .input-group label {
+        font-size: 1.5rem; // Tamaño de fuente más grande para los labels
+        margin-bottom: 10px; // Espaciado entre el label y el input
+    }
+
+    .input-group input {
+        font-size: 2rem; // Tamaño de fuente ligeramente mayor para mejorar la legibilidad
+    }
+
+    .btn-login {
+        font-size: 1.4rem; // Tamaño de fuente ligeramente mayor para el botón
+        padding: 12px 25px; // Padding ajustado para mantener proporciones
+        width: 30%; // El botón ocupa todo el ancho del contenedor
+    }
+
+    #registro {
+        font-size: 1.5rem; // Tamaño de fuente ligeramente mayor para el enlace "Registro"
+        text-align: center; // Alinea el texto al centro
+        width: 100%; // Asegura que el enlace ocupe todo el ancho del contenedor
+    }
+
+    #recordar {
+        font-size: 1.5rem; // Tamaño de fuente más grande para "Recordar"
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 100px;
+    }
+
+    .container {
+
+        width: 70%; // Ancho más grande para aprovechar mejor el espacio
+        height: 50vh; // Altura del 50% de la ventana
+        padding: 30px; // Espaciado interno ligeramente mayor
+        display: flex; // Usa Flexbox para organizar el contenido interno
+        flex-direction: column; // Alinea los elementos en columna
+        box-sizing: border-box; // Asegura que el padding no afecte el tamaño total
+    }
+
+    .input-group {
+        margin-bottom: 20px; // Espaciado entre grupos de entrada
+        width: 100%; // Asegura que los inputs ocupen todo el ancho del contenedor
+    }
+
+    .input-group label {
+        font-size: 1.5rem; // Tamaño de fuente más grande para los labels
+        margin-bottom: 10px; // Espaciado entre el label y el input
+    }
+
+    .input-group input {
+        font-size: 2rem; // Tamaño de fuente ligeramente mayor para mejorar la legibilidad
+    }
+
+    .btn-login {
+        font-size: 1.4rem; // Tamaño de fuente ligeramente mayor para el botón
+        padding: 12px 25px; // Padding ajustado para mantener proporciones
+        width: 30%; // El botón ocupa todo el ancho del contenedor
+    }
+
+    #registro {
+        font-size: 1.5rem; // Tamaño de fuente ligeramente mayor para el enlace "Registro"
+        text-align: center; // Alinea el texto al centro
+        width: 100%; // Asegura que el enlace ocupe todo el ancho del contenedor
+    }
+
+    #recordar {
+        font-size: 1.5rem; // Tamaño de fuente más grande para "Recordar"
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        width: 90%; // Ancho reducido para ajustarse a pantallas pequeñas
+        padding: 20px; // Menos espacio interno
+        margin-top: 5vh; // Reducir margen superior
+        margin-bottom: 5vh; // Reducir margen inferior
+    }
+
+    .input-group input {
+        font-size: 0.9rem; // Tamaño de fuente más pequeño para inputs
+    }
+
+    .btn-login {
+        font-size: 0.9rem; // Tamaño de fuente más pequeño para el botón
+        padding: 10px 20px; // Reducir el padding del botón
+        height: auto; // Altura automática para ajustar el contenido
+    }
+
+    #registro {
+        font-size: 0.9rem; // Tamaño de fuente más pequeño para el enlace "Registro"
+    }
+}
