@@ -5,7 +5,6 @@
 @use "../componentes/footer.scss";
 @use "../componentes/boton.scss";
 
-
 body {
     height: 100%; // Asegura que html y body ocupen toda la altura de la ventana
 }
@@ -27,13 +26,10 @@ body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-
-        // Aplicar el efecto de desenfoque
         filter: blur(4px); // Ajusta el valor según el nivel de difuminado deseado
         z-index: -1; // Asegura que la imagen esté detrás del contenido
     }
 
-    // Capa de superposición opcional (para oscurecer ligeramente la imagen)
     &::after {
         content: "";
         position: fixed;
@@ -53,7 +49,6 @@ main {
     align-items: center; // Centra verticalmente el formulario
     min-height: 80vh; // Asegura que haya suficiente espacio para centrar
 }
-
 
 .calendar-container {
     width: 80%;
@@ -75,6 +70,8 @@ main {
 .days-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap; // Permite que los días se envuelvan si no caben en una fila
+    gap: 10px; // Espaciado entre los días
 }
 
 .day {
@@ -83,6 +80,7 @@ main {
     border-radius: 5px;
     padding: 20px;
     text-align: center;
+    box-sizing: border-box; // Incluye padding en el cálculo del ancho
 }
 
 .day-name {
@@ -92,15 +90,88 @@ main {
 }
 
 .start-button {
-    background-color: red;
+    background-color: variables.$color-secundario;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    width: 100%; // El botón ocupa todo el ancho del día
+    box-sizing: border-box; // Incluye padding en el cálculo del ancho
+
 }
 
 .start-button:hover {
     background-color: darkred;
+}
+
+@media (min-width: 1800px) {
+    .calendar-container {
+        width: 90%; // Aumenta el ancho del contenedor
+        max-width: none; // Elimina el límite máximo de ancho
+        padding: 40px; // Aumenta el padding interno
+    }
+
+    .week-header {
+        font-size: 36px; // Aumenta el tamaño del texto del encabezado
+        margin-bottom: 40px; // Aumenta el margen inferior
+    }
+
+    .day {
+        width: calc(100% / 7 - 40px); // Aumenta el espacio entre los días
+        padding: 40px; // Aumenta el padding interno
+        font-size: 20px; // Aumenta el tamaño del texto
+    }
+
+    .day-name {
+        font-size: 24px; // Aumenta el tamaño del nombre del día
+        margin-bottom: 20px; // Aumenta el margen inferior
+    }
+
+    .start-button {
+        font-size: 20px; // Aumenta el tamaño del texto del botón
+        padding: 15px 30px; // Aumenta el padding del botón
+    }
+}
+
+// Media Query para pantallas entre 501px y 767px
+@media (min-width: 501px) and (max-width: 1300px) {
+    .days-container {
+        flex-wrap: wrap; // Permite que los días se envuelvan
+        gap: 10px; // Espaciado entre los días
+    }
+
+    .day {
+        flex: 1 1 calc(50% - 20px); // Cada día ocupará la mitad del ancho, menos un margen
+        min-width: 100px; // Establece un ancho mínimo para evitar que se hagan demasiado pequeños
+        max-width: calc(50% - 20px); // Limita el ancho máximo para mantener consistencia
+    }
+
+    .start-button {
+        width: 50%; // El botón ocupa todo el ancho del día
+
+    }
+}
+
+// Media Query para pantallas menores a 500px
+@media (max-width: 500px) {
+    .calendar-container {
+        width: 100%; // Asegúrate de que ocupe todo el ancho disponible
+    }
+
+    .days-container {
+        flex-direction: column; // Coloca los días en una columna
+        align-items: center; // Centra los días horizontalmente
+    }
+
+    .day {
+        width: 100%; // Cada día ocupará todo el ancho del contenedor
+        margin-bottom: 10px; // Agrega espacio entre los días
+    }
+
+    .start-button {
+        width: 50%; // El botón ocupa todo el ancho del día
+
+    }
 }

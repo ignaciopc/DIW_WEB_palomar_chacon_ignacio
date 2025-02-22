@@ -298,6 +298,8 @@ main {
 .days-container {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .day {
@@ -306,6 +308,7 @@ main {
   border-radius: 5px;
   padding: 20px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .day-name {
@@ -315,17 +318,74 @@ main {
 }
 
 .start-button {
-  background-color: red;
+  background-color: #ff3b30;
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .start-button:hover {
   background-color: darkred;
+}
+
+@media (min-width: 1800px) {
+  .calendar-container {
+    width: 90%;
+    max-width: none;
+    padding: 40px;
+  }
+  .week-header {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .day {
+    width: calc(14.2857142857% - 40px);
+    padding: 40px;
+    font-size: 20px;
+  }
+  .day-name {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .start-button {
+    font-size: 20px;
+    padding: 15px 30px;
+  }
+}
+@media (min-width: 501px) and (max-width: 1300px) {
+  .days-container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .day {
+    flex: 1 1 calc(50% - 20px);
+    min-width: 100px;
+    max-width: calc(50% - 20px);
+  }
+  .start-button {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .calendar-container {
+    width: 100%;
+  }
+  .days-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .day {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .start-button {
+    width: 50%;
+  }
 }
 
 /*# sourceMappingURL=semanal.css.map */
