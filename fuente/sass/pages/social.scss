@@ -24,6 +24,8 @@ main {
     min-height: 80vh; // Asegura que haya suficiente espacio para centrar
 }
 
+ 
+
 .container {
     display: flex;
     flex-direction: column;
@@ -98,7 +100,35 @@ picture img {
     font-size: 25px; /* Cambia el tamaño según tus necesidades */
 }
 
-@media (max-width: 100px) {
+
+@media (min-width: 1400px) {
+    .container {
+        width: 90%; // Aumenta el ancho relativo al viewport
+        max-width: 1200px; // Establece un nuevo máximo de ancho para pantallas grandes
+        padding: 30px; // Aumenta el padding para dar más espacio interior
+    }
+    #profile{
+        font-size: 30px; // Aumenta el tamaño del texto si es necesario
+    }
+    .post {
+        gap: 30px; // Aumenta el espacio entre los elementos dentro del post
+    }
+
+    .image-container {
+        margin-right: 30px; // Ajusta el margen derecho para equilibrar el diseño
+    }
+
+    .text-container p {
+        font-size: 25px; // Aumenta el tamaño del texto si es necesario
+        line-height: 1.6; // Ajusta el interlineado para mejorar la legibilidad
+    }
+
+    .icons{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
 .post{
     flex-direction: column;
 }

@@ -1,0 +1,106 @@
+@use "../componentes/header.scss";
+@use "../base/predeterminado.scss";
+@use "../global/variables.scss";
+@use "../global/funciones.scss";
+@use "../componentes/footer.scss";
+@use "../componentes/boton.scss";
+
+
+body {
+    height: 100%; // Asegura que html y body ocupen toda la altura de la ventana
+}
+
+body {
+    display: flex; // Aplica Flexbox al cuerpo
+    flex-direction: column; // Coloca los elementos en columna
+    font-family: Arial, sans-serif;
+    background-color: #F4F4F4;
+
+    &::before {
+        content: "";
+        position: fixed; // Fija la imagen al viewport
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: map-get(map-get(variables.$home-backgrounds, large), avif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        // Aplicar el efecto de desenfoque
+        filter: blur(4px); // Ajusta el valor según el nivel de difuminado deseado
+        z-index: -1; // Asegura que la imagen esté detrás del contenido
+    }
+
+    // Capa de superposición opcional (para oscurecer ligeramente la imagen)
+    &::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.3); // Color de superposición semi-transparente
+        z-index: -1; // Asegura que esta capa también esté detrás del contenido
+    }
+}
+
+main {
+    flex: 1; // Hace que el contenido principal ocupe todo el espacio disponible
+    display: flex;
+    justify-content: center; // Centra horizontalmente el formulario
+    align-items: center; // Centra verticalmente el formulario
+    min-height: 80vh; // Asegura que haya suficiente espacio para centrar
+}
+
+
+.calendar-container {
+    width: 80%;
+    max-width: 1200px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.week-header {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.days-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.day {
+    width: calc(100% / 7 - 20px);
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.day-name {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.start-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.start-button:hover {
+    background-color: darkred;
+}

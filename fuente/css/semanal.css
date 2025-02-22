@@ -245,6 +245,30 @@ body {
   font-family: Arial, sans-serif;
   background-color: #F4F4F4;
 }
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../media/imagenes/avif/FondoMenu7580.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(4px);
+  z-index: -1;
+}
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
 
 main {
   flex: 1;
@@ -254,109 +278,54 @@ main {
   min-height: 80vh;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
+.calendar-container {
+  width: 80%;
+  max-width: 1200px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  width: 80%;
-  max-width: 800px;
 }
 
-.image-container {
-  position: relative; /* Necesario para que los elementos posicionados absolutamente se refieran a este contenedor */
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 20px;
-}
-
-.icon-top-left {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+.week-header {
+  text-align: center;
+  color: white;
   font-size: 24px;
-  color: #333;
-  z-index: 1; /* Asegura que el icono esté por encima de la imagen */
-}
-
-picture img {
-  max-width: 100%;
-  height: auto;
-}
-
-.text-container {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.text-container p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-.icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px; /* Agrega padding a los lados para separar los iconos de los márgenes */
-}
-
-.icon {
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.icon:hover {
-  color: #007bff;
-}
-
-.post {
-  margin-top: 10px;
-  display: flex;
-  gap: 20px;
   margin-bottom: 20px;
 }
 
-#profile {
-  font-size: 25px; /* Cambia el tamaño según tus necesidades */
+.days-container {
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (min-width: 1400px) {
-  .container {
-    width: 90%;
-    max-width: 1200px;
-    padding: 30px;
-  }
-  #profile {
-    font-size: 30px;
-  }
-  .post {
-    gap: 30px;
-  }
-  .image-container {
-    margin-right: 30px;
-  }
-  .text-container p {
-    font-size: 25px;
-    line-height: 1.6;
-  }
-  .icons {
-    font-size: 30px;
-  }
-}
-@media (max-width: 500px) {
-  .post {
-    flex-direction: column;
-  }
-  .icons {
-    margin-top: 30px;
-  }
+.day {
+  width: calc(14.2857142857% - 20px);
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
 }
 
-/*# sourceMappingURL=social.css.map */
+.day-name {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.start-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.start-button:hover {
+  background-color: darkred;
+}
+
+/*# sourceMappingURL=semanal.css.map */
