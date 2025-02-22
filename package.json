@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "translating-sass",
   "scripts": {
-    "compilar-sass": "sass fuente/sass:fuente/css --source-map",
-    "monitorizar-sass": "sass --watch fuente/sass:fuente/css --source-map",
-    "sass:landing": "sass --watch fuente/sass/pages/landing.scss css/landing.css",
-    "sass:home": "sass assets/scss/pages/home.scss css/home.css"
-  },
+    "compilar-sass": "sass  fuente/sass/pages:fuente/css --source-map",
+"monitorizar-sass": "sass --watch fuente/sass/pages/landing.scss:fuente/css/landing.css fuente/sass/pages/home.scss:fuente/css/home.css fuente/sass/pages/login.scss:fuente/css/login.css fuente/sass/pages/semanal.scss:fuente/css/semanal.css fuente/sass/pages/social.scss:fuente/css/social.css --style expanded --source-map"  },
   "author": "Ignacio Palomar Chacon",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.83.4"
+    "sass": "^1.85.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2"
