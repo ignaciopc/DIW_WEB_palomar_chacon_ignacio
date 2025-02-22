@@ -105,6 +105,11 @@ main {
 .start-button:hover {
     background-color: darkred;
 }
+.check-icon {
+    font-size: 20px; /* Tamaño del ícono */
+    color: green; /* Color del ícono */
+    margin-top: 5px;
+}
 
 @media (min-width: 1800px) {
     .calendar-container {
@@ -133,6 +138,10 @@ main {
         font-size: 20px; // Aumenta el tamaño del texto del botón
         padding: 15px 30px; // Aumenta el padding del botón
     }
+
+    .check-icon {
+        margin-top: 20px;
+    }
 }
 
 // Media Query para pantallas entre 501px y 767px
@@ -151,6 +160,10 @@ main {
     .start-button {
         width: 50%; // El botón ocupa todo el ancho del día
 
+    }
+
+    .check-icon {
+        margin-left: 10px;
     }
 }
 
@@ -173,5 +186,9 @@ main {
     .start-button {
         width: 50%; // El botón ocupa todo el ancho del día
 
+    }
+
+    .check-icon {
+        margin-left: 10px;
     }
 }
