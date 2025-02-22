@@ -4,7 +4,7 @@
   "description": "translating-sass",
   "scripts": {
     "compilar-sass": "sass  fuente/sass/pages:fuente/css --source-map",
-"monitorizar-sass": "sass --watch fuente/sass/pages/landing.scss:fuente/css/landing.css fuente/sass/pages/home.scss:fuente/css/home.css fuente/sass/pages/login.scss:fuente/css/login.css fuente/sass/pages/semanal.scss:fuente/css/semanal.css fuente/sass/pages/social.scss:fuente/css/social.css --style expanded --source-map"  },
+"monitorizar-sass": "sass --watch fuente/sass/pages:fuente/css --style expanded --source-map"},
   "author": "Ignacio Palomar Chacon",
   "license": "ISC",
   "devDependencies": {
