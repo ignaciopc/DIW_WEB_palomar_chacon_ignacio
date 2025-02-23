@@ -6,7 +6,7 @@
     "compilar-sass": "sass  fuente/sass/pages:fuente/css --source-map",
     "monitorizar-sass": "sass --watch fuente/sass/pages:fuente/css --style expanded --source-map",
     "start": "parcel \"fuente/html/*.html\"",
-    "build": "parcel build \"fuente/html/*.html\""
+    "build": "parcel build \"fuente/html/*.html\" --public-url ./"
   },
   "author": "Ignacio Palomar Chacon",
   "license": "ISC",
