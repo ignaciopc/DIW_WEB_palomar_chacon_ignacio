@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagen con Texto y Botones</title>
     <link rel="stylesheet" href="../css/social.css">
-    <script src="../scr/header.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
 <body>
-    <header id="header-container"></header>
+    <header class="header">
+        <div class="logo"><i class="fa-solid fa-dumbbell"></i></div>
+        <nav class="nav">
+            <a href="./home.html" class="nav-link">Inicio</a>
+            <a href="./social.html" class="nav-link">Red Social</a>
+            <a href="./login.html" class="nav-link">Inicio Sesion</a>
+        </nav>
+    </header>
     <main>
-        <div class="container">
-            <div id="profile">
+        <section class="container">
+            <header id="profile">
                 <i class="fa-solid fa-user"></i>
-            </div>
-            <div class="post">
-                <div class="image-container">
-
+            </header>
+            <article class="post">
+                <section class="image-container">
                     <picture>
                         <!-- Formatos AVIF -->
                         <source srcset="../media/imagenes/avif/RutinasEjemploPesoMuerto4933.avif" type="image/avif"
@@ -64,22 +69,21 @@
                         <img src="../media/imagenes/jpg/RutinasEjemploPesoMuerto480.jpg" alt="Ejemplo de espalda"
                             sizes="(max-width: 767px) 750px, (min-width: 768px) 1200px" loading="lazy">
                     </picture>
-                </div>
-                <div class="text-container">
+                </section>
+                <section class="text-container">
                     <p>Hoy completé una dura sesión de entrenamiento de pierna.
-                        Entre sentadillas profundas, peso muerto y zancadas. Sin duda, las piernas son el grupo muscular más exigente, pero también el más
+                        Entre sentadillas profundas, peso muerto y zancadas. Sin duda, las piernas son el grupo muscular
+                        más exigente, pero también el más
                         gratificante cuando das todo en el gimnasio.</p>
-                    <div class="icons">
-                        <span class="icons"><i class="fa-solid fa-thumbs-up"></i></span>
-                        <span class="icons"><i class="fa-solid fa-thumbs-down"></i></span>
-                        <span class="icons"><i class="fa-solid fa-dumbbell"></i></span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+                    <nav class="icons">
+                        <span><i class="fa-solid fa-thumbs-up"></i></span>
+                        <span><i class="fa-solid fa-thumbs-down"></i></span>
+                        <span><i class="fa-solid fa-dumbbell"></i></span>
+                    </nav>
+                </section>
+            </article>
+        </section>
     </main>
-
     <footer class="footer">
         <section class="top-section">
             <span class="logo"><i class="fa-solid fa-dumbbell"></i></span>

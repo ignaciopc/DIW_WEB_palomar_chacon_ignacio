@@ -350,6 +350,24 @@ picture img {
     font-size: 30px;
   }
 }
+@media (min-width: 801px) and (max-width: 1399px) {
+  .post {
+    flex-direction: column;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  picture img {
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 800px) {
   .post {
     flex-direction: column;

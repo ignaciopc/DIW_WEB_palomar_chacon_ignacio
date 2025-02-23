@@ -19,7 +19,7 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: map.get(map.get(variables.$home-backgrounds, large), avif);    
+    background-image: map-get(map-get(variables.$home-backgrounds, large), avif);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,21 +64,27 @@ main {
 }
 
 .cabezera {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px; /* Aumentar el margen inferior */
+    display: flex; // Habilita Flexbox
+    align-items: center; // Centra verticalmente todos los elementos
+    justify-content: space-between; // Distribuye el espacio entre el ícono y el texto
+    margin-bottom: 30px; // Espaciado inferior
+    padding-left: 15px; // Añade un padding para evitar que el ícono se pegue al borde
+    position: relative; // Necesario para posicionar el texto correctamente
 }
 
 .cabezera i {
-    margin-right: 15px; /* Aumentar el margen derecho */
+    font-size: 24px; // Tamaño del ícono
+    margin-right: 15px; // Espacio entre el ícono y el texto
 }
 
 .textoCabezera {
-    font-size: 18px; /* Aumentar el tamaño del texto */
+    font-size: 18px; // Tamaño del texto
     color: black;
-    margin-left: 40%;
+    position: absolute; // Posiciona el texto absolutamente dentro de .cabezera
+    left: 50%; // Coloca el texto en el centro horizontal
+    transform: translateX(-50%); // Ajusta para centrar perfectamente
+    width: max-content; // Asegura que el texto no afecte otros elementos
 }
-
 table {
     width: 100%;
     border-collapse: collapse;

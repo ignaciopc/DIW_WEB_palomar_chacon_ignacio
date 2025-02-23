@@ -128,6 +128,27 @@ picture img {
     }
 }
 
+@media (min-width: 801px) and (max-width: 1399px) {
+    .post {
+        flex-direction: column; // Asegura que los elementos se organicen en columna
+    }
+
+    .image-container {
+        display: flex; // Habilita Flexbox
+        justify-content: center; // Centra horizontalmente
+        align-items: center; // Centra verticalmente
+        margin: 0 auto; // Centra el contenedor completo si es necesario
+        text-align: center; // Alinea el contenido al centro (adicional)
+    }
+
+    picture img {
+        max-width: 70%; // Reducimos el tamaño de la imagen
+        height: auto; // Mantenemos la relación de aspecto
+        display: block; // Evita espacios adicionales debajo de la imagen
+        margin: 0 auto; // Centramos la imagen dentro del contenedor
+    }
+}
+
 @media (max-width: 800px) {
 .post{
     flex-direction: column;
