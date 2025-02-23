@@ -6,7 +6,7 @@
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\runtime-js\lib\helpers\worker\wasm-loader.js133848116994685287 0
 91C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\.package-lock.json133848127407232598 0
 83C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\parcel\lib133848116992433673 1
-72C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\package.json133848130106716666 0
+72C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\package.json133848158977309280 0
 108C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\transformer-js\package.json133848116992993271 0
 93C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\weak-lru-cache\tests133848116992804582 1
 101C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\esm\_dispose.js133848116995923751 0
@@ -39,7 +39,7 @@
 132C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\jet-fighter-up.svg133848117001843994 0
 121C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-initial-letter.js133848116996323533 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\lmdb\dependencies\lz4\lib\lz4.c133848116994485016 0
-64C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist133848157400916242 1
+64C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist133848167495450689 1
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\source-map\parcel_sourcemap_node\build.js133848116993122943 0
 86C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\htmlnano\docs133848116995658135 1
 97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\reporter-cli\lib133848116993685020 1
@@ -58,7 +58,7 @@
 90C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@msgpackr-extract133848127406644567 1
 107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133848116994004884 0
 90C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\parcel\src\bin.js133848116992303180 0
-97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda2540.1be398f4.avif133848157384688742 0
+97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda2540.1be398f4.avif133848167495211469 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\regular\square.svg133848117004463452 0
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\ring.svg133848117003528200 0
 99C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\msgpackr-extract\README.md133848116992971068 0
@@ -322,7 +322,7 @@
 81C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\has-flag133848116992544052 1
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\GI.js133848116997476716 0
 105C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\lmdb\node_modules\node-addon-api133848116993955333 1
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1980.4ba24861.webp133848157384603921 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1980.4ba24861.webp133848167494842699 0
 87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\ordered-binary133848116993526777 1
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\SE.js133848116999104824 0
 96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\watcher\scripts133848116994660127 1
@@ -392,6 +392,7 @@
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\link-slash.svg133848117002072997 0
 96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\escalade\sync\index.mjs133848116992981120 0
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\posthtml\node_modules\entities\lib\encode-trie.js133848116993073007 0
+75C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\index.html133848167494782903 0
 133C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\d-and-d-beyond.svg133848116999305114 0
 139C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\building-circle-check.svg133848116997803073 0
 118C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\node-gyp-build-optional-packages\package.json133848116992764117 0
@@ -708,7 +709,7 @@
 96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\braces\lib\stringify.js133848116992981120 0
 92C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\msgpackr\pack.d.cts133848116993203205 0
 113C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\types-internal\lib\FilePath.d.ts133848116993875338 0
-96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1920.9f5676cd.jpg133848157363663944 0
+96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1920.9f5676cd.jpg133848167494772937 0
 96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\readdirp\esm\index.d.ts133848116992971068 0
 103C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\js-yaml\lib\schema\failsafe.js133848116993262996 0
 117C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\iframe-sandbox.js133848116997672794 0
@@ -830,7 +831,7 @@
 119C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\_\_class_private_field_loose_base133848116996553890 1
 118C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\mutation-events.js133848116998427954 0
 132C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\_\_class_private_field_loose_base\package.json133848116996553890 0
-107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1200.6af4083d.webp133848157384613895 0
+107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1200.6af4083d.webp133848167494952339 0
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\regular\envelope.svg133848116999733735 0
 137C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\prescription-bottle.svg133848117003303625 0
 110C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\type-fest\source\merge-exclusive.d.ts133848116993980308 0
@@ -968,7 +969,7 @@
 101C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\imagenes\webp\Heroe1200.webp133848071356572582 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\avianex.svg133848116997033266 0
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-relative-colors.js133848116996553890 0
-106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1920.8ceff7c0.jpg133848157364165759 0
+106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1920.8ceff7c0.jpg133848167494762969 0
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\user-doctor.svg133848117005431364 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-deviceadaptation.js133848116996091407 0
 97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\to-regex-range\README.md133848116992433673 0
@@ -1436,7 +1437,6 @@
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\regular\file-video.svg133848117000485591 0
 121C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\gem.svg133848117000829813 0
 95C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\commander\lib\error.js133848116992704316 0
-77C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\landing.html133848157400811349 0
 96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\msgpackr\test-worker.js133848116994097961 0
 94C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\readdirp\esm\index.js133848116992007695 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\css\v5-font-face.css133848116994064685 0
@@ -1483,7 +1483,7 @@
 89C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\entities\lib\esm133848116995194526 1
 110C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\imports.js133848116997713157 0
 94C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\posthtml\node_modules133848116981128510 1
-107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto2560.01ebd42a.webp133848157363426207 0
+107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto2560.01ebd42a.webp133848167495241364 0
 101C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\posthtml-render\changelog.md133848116992484225 0
 121C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\runtime-js\lib\helpers\node\js-loader.js133848116994305784 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\posthtml-render\dist\index.d.ts133848116992886276 0
@@ -1536,7 +1536,7 @@
 82C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\lmdb\dist133848116995985288 1
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\cjs\_class_private_field_loose_base.cjs133848116994262641 0
 106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\posthtml\node_modules\htmlparser2133848116993486910 1
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe768.a3061454.avif133848157363748758 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe768.a3061454.avif133848167494832729 0
 120C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\midl.h133848116995833381 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\codepen.svg133848116998974959 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\posthtml\node_modules\posthtml-parser\package.json133848116992673702 0
@@ -1805,7 +1805,6 @@
 134C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\scale-unbalanced.svg133848117003696276 0
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\flask-vial.svg133848117000620234 0
 97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\picocolors\picocolors.js133848116992153352 0
-85C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\landing.34d44dd9.css133848157400811349 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\drupal.svg133848116999597842 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\message.svg133848117002355345 0
 119C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-supports-api.js133848116996655836 0
@@ -1983,11 +1982,11 @@
 111C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\template.js133848116999374880 0
 119C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-mediaqueries.js133848116996413921 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\msgpackr-extract\node_modules\detect-libc\index.d.ts133848116993003238 0
-106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto4933.9cd9c554.jpg133848157385504126 0
+106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto4933.9cd9c554.jpg133848167494772937 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\SA.js133848116999049806 0
 118C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\msgpackr-extract\node_modules\detect-libc\lib133848116992484225 1
 93C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\core\Visitor.js133848116992188304 0
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1980.5bf99dd7.avif133848157384603921 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1980.5bf99dd7.avif133848167494832729 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\transformer-babel\src\remapAstLocations.js133848116993704943 0
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\msgpackr-extract\node_modules\detect-libc\LICENSE133848116991842774 0
 120C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\transformer-json\src\JSONTransformer.js133848116992313139 0
@@ -2477,7 +2476,7 @@
 93C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\htmlnano\index.d.cts133848116994396196 0
 119C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\src\_class_private_field_init.mjs133848116997294136 0
 93C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\htmlnano\index.d.mts133848116995658135 0
-86C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe768.7f6b8e03.jpg133848157364165759 0
+86C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe768.7f6b8e03.jpg133848167494782903 0
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\ups.svg133848117005396386 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\square-xing.svg133848117004453489 0
 92C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\htmlnano\index.d.ts133848116995673157 0
@@ -2890,7 +2889,7 @@
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\user-slash.svg133848117005493077 0
 135C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\road-circle-xmark.svg133848117003548133 0
 99C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\domutils\lib\legacy.js.map133848116994471007 0
-74C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\home.html133848157400811349 0
+74C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\home.html133848167494782903 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\pager.svg133848117002783999 0
 103C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\domutils\lib\manipulation.d.ts133848116995064468 0
 108C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\audio.js133848116994715177 0
@@ -2921,7 +2920,7 @@
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\regular\hand.svg133848117001203641 0
 108C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\webxr.js133848116999883905 0
 118C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\src\_class_private_field_set.mjs133848116997314069 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe6652.62264141.jpg133848157398812459 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe6652.62264141.jpg133848167494802834 0
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\ear-listen.svg133848116999627737 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\src\_ts_values.mjs133848116997683240 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\domutils\lib\esm\helpers.js.map133848116994252659 0
@@ -3024,7 +3023,7 @@
 132C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\_\_class_extract_field_descriptor\package.json133848116996514014 0
 94C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\detect-libc\README.md133848116992178314 0
 103C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\detect-libc\bin\detect-libc.js133848116992694348 0
-89C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\semanal.a1129e84.css.map133848157400876387 0
+89C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\semanal.a1129e84.css.map133848167495201510 0
 89C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\cosmiconfig\dist133848116994945772 1
 90C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\logo\logotipo.png133848071356801815 0
 94C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\cosmiconfig\README.md133848116994705211 0
@@ -3151,7 +3150,7 @@
 99C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\utils\src\index.js133848116994843733 0
 102C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\browsers.js133848116995371359 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\MQ.js133848116998383000 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\rutinaDia.92c98b94.css133848157400811349 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\rutinaDia.92c98b94.css133848167494782903 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\JO.js133848116997893537 0
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\pencil.svg133848117002894147 0
 98C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions133848116999984242 1
@@ -3196,7 +3195,7 @@
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\CG.js133848116995563361 0
 71C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\sass133848071356821746 1
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\optimizer-htmlnano\src\HTMLNanoOptimizer.js133848116992372939 0
-96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1200.ad9eb248.jpg133848157364165759 0
+96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1200.ad9eb248.jpg133848167494772937 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\CK.js133848116995658135 0
 111C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\src\public\BundleGroup.js133848116994905902 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\CM.js133848116995713156 0
@@ -3276,7 +3275,7 @@
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\MH.js133848116998308047 0
 96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\browserslist\browser.js133848116991952793 0
 119C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-text-spacing.js133848116996693399 0
-84C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\social.2ec668f6.css133848157400811349 0
+84C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\social.2ec668f6.css133848167494782903 0
 134C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-grin-wink.svg133848117000044036 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\regions\ML.js133848116998327983 0
 108C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\types-internal\package.json133848116993595000 0
@@ -3427,7 +3426,7 @@
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-at-counter-style.js133848116995893846 0
 115C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-autofill.js133848116995893846 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-backgroundblendmode.js133848116995913777 0
-96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda480.c96279f9.avif133848157363307056 0
+96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda480.c96279f9.avif133848167494822765 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\wasm-reference-types.js133848116999723768 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-boxdecorationbreak.js133848116995923751 0
 116C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\css-boxshadow.js133848116995933714 0
@@ -3776,7 +3775,7 @@
 112C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\png-alpha.js133848116998789975 0
 134C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\square-snapchat.svg133848117004383392 0
 117C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\pointer-events.js133848116998799971 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1980.44e37683.jpg133848157385494157 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1980.44e37683.jpg133848167494782903 0
 110C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\pointer.js133848116998809942 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\caniuse-lite\data\features\prefers-color-scheme.js133848116998839844 0
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\mars-double.svg133848117002245363 0
@@ -3956,7 +3955,7 @@
 110C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\_\_decorate\package.json133848116996693399 0
 94C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\browserslist\parse.js133848116993013207 0
 88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\braces\index.js133848116992663736 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe768.99717305.webp133848157363748758 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe768.99717305.webp133848167494842699 0
 83C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\braces\lib133848116993063034 1
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\dice-d6.svg133848116999430218 0
 87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\braces\LICENSE133848116991802898 0
@@ -4052,7 +4051,7 @@
 135C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\indian-rupee-sign.svg133848117001749146 0
 113C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\_\_class_private_field_init133848116996543914 1
 118C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\src\public\MutableBundleGraph.js133848116995618265 0
-97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1920.c8ea24e6.webp133848157363361922 0
+97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1920.c8ea24e6.webp133848167495171602 0
 118C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\_\_class_private_field_loose_key133848116996563850 1
 112C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\_\_class_private_field_set133848116996573817 1
 115C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\_\_class_private_field_update133848116996573817 1
@@ -4232,7 +4231,7 @@
 118C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\optimizer-htmlnano\lib\svgMappings.js133848116992563981 0
 109C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\src\_async_iterator.mjs133848116997213452 0
 116C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\src\_await_async_generator.mjs133848116997223413 0
-97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1200.625a424b.webp133848157363748758 0
+97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1200.625a424b.webp133848167494822765 0
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\regular\file-word.svg133848117000495575 0
 121C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\src\_class_apply_descriptor_get.mjs133848116997253311 0
 121C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\src\_class_apply_descriptor_set.mjs133848116997253311 0
@@ -4312,7 +4311,7 @@
 102C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\scripts\build.js133848116996313569 0
 103C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\scripts\errors.js133848116996313569 0
 120C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\esm\_apply_decorated_descriptor.js133848116995563361 0
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe2560.eaa282a2.avif133848157363748758 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe2560.eaa282a2.avif133848167494832729 0
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\red-river.svg133848117003448646 0
 95C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\diagnostic\src133848116992283215 1
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\angle-up.svg133848116996596035 0
@@ -4364,6 +4363,7 @@
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\esm\_instanceof.js133848116995973579 0
 121C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\esm\_is_native_reflect_construct.js133848116996005227 0
 111C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\esm\_iterable_to_array.js133848116996035123 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\index.34d44dd9.css.map133848167495201510 0
 117C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\esm\_iterable_to_array_limit.js133848116996025158 0
 105C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\packager-js\src\utils.js133848116993925434 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@swc\helpers\esm\_iterable_to_array_limit_loose.js133848116996015191 0
@@ -4543,7 +4543,7 @@
 116C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\types-internal\lib\SemverRange.d.ts133848116994252659 0
 127C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\workers\test\integration\workerfarm\console.js133848116993333778 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\workers\test\integration\workerfarm\master-sum.js133848116994295821 0
-97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda2540.d673a884.webp133848157384698710 0
+97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda2540.d673a884.webp133848167495251341 0
 134C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\workers\test\integration\workerfarm\reverse-handle.js133848116994485016 0
 136C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\workers\test\integration\workerfarm\shared-reference.js133848116994504947 0
 103C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\workers\src\backend.js133848116992313139 0
@@ -4967,7 +4967,7 @@
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\bold.svg133848116997408844 0
 102C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\packager-html\LICENSE133848116991822831 0
 107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\packager-html\package.json133848116992563981 0
-106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto768.12728718.webp133848157363297063 0
+106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto768.12728718.webp133848167494802834 0
 110C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\imagenes\webp\EjemploEspalda5580.webp133848071356303483 0
 97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\packager-css\lib133848116991987737 1
 101C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\packager-css\LICENSE133848116991822831 0
@@ -5094,7 +5094,7 @@
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\test\fixtures\custom-format-infer-ext133848116996428941 1
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\test\fixtures\custom-format-infer-type133848116996439021 1
 114C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\test\fixtures\custom-targets133848116996458951 1
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe6652.e979a7fb.avif133848157363431224 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe6652.e979a7fb.avif133848167495251341 0
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\test\fixtures\custom-targets-distdir133848116996448986 1
 111C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\src\public\BundleGraph.js133848116994813834 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\building-ngo.svg133848116997832966 0
@@ -5130,7 +5130,7 @@
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\test\fixtures\invalid-targets\package.json133848116996514014 0
 120C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\test\fixtures\glob-like\[entry].js133848116993875338 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@parcel\core\test\fixtures\duplicate-targets\package.json133848116996458951 0
-92C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\FondoMenu7580.7b169f2f.avif133848157363445663 0
+92C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\FondoMenu7580.7b169f2f.avif133848167495271263 0
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\rupee-sign.svg133848117003633099 0
 127C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\helmet-un.svg133848117001413196 0
 127C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\fish-fins.svg133848117000590314 0
@@ -5373,7 +5373,7 @@
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\ban-smoking.svg133848116997123550 0
 121C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\ban.svg133848116997123550 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\bandage.svg133848116997133517 0
-97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda5580.31a87de6.webp133848157400906275 0
+97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda5580.31a87de6.webp133848167495450689 0
 139C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\bangladeshi-taka-sign.svg133848116997133517 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\barcode.svg133848116997143489 0
 131C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\bars-progress.svg133848116997143489 0
@@ -5435,7 +5435,7 @@
 143C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\bridge-circle-exclamation.svg133848116997723123 0
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\wpbeginner.svg133848117005874927 0
 137C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\bridge-circle-xmark.svg133848116997733090 0
-96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda768.f5ab8d83.avif133848157384544098 0
+96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda768.f5ab8d83.avif133848167494822765 0
 131C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\envelope-open.svg133848116999733735 0
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\bridge-lock.svg133848116997733090 0
 103C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\imagenes\jpg\FondoMenu2560.jpg133848071354051014 0
@@ -5458,7 +5458,7 @@
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\building.svg133848116997862869 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\bullseye.svg133848116997872835 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\burst.svg133848116997883570 0
-95C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda480.ca70459a.jpg133848157363663944 0
+95C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda480.ca70459a.jpg133848167494772937 0
 131C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\business-time.svg133848116997893537 0
 131C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\autoprefixer.svg133848116997033266 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\cake-candles.svg133848116997923445 0
@@ -5562,7 +5562,7 @@
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\code.svg133848116998964995 0
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\colon-sign.svg133848116998989980 0
 132C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\comment-dollar.svg133848116998999969 0
-71C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\html133848071352924788 1
+71C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\html133848165775762977 1
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\folder-open.svg133848117000675120 0
 133C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\comment-medical.svg133848116999009937 0
 131C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\comment-slash.svg133848116999019906 0
@@ -5689,7 +5689,6 @@
 133C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\file-powerpoint.svg133848117000470518 0
 135C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\file-prescription.svg133848117000475534 0
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\file-shield.svg133848117000475534 0
-89C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\landing.34d44dd9.css.map133848157400876387 0
 132C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\file-signature.svg133848117000475534 0
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\file-video.svg133848117000485591 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\medapps.svg133848117002315477 0
@@ -5806,7 +5805,7 @@
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\house-laptop.svg133848117001594603 0
 136C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\house-medical-flag.svg133848117001624495 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\house-signal.svg133848117001624495 0
-96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda2540.346d0ac6.jpg133848157385494157 0
+96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda2540.346d0ac6.jpg133848167494772937 0
 131C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\house-tsunami.svg133848117001634460 0
 77C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\css\global133848071352795225 1
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\house.svg133848117001644427 0
@@ -5820,7 +5819,7 @@
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\indent.svg133848117001749146 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\industry.svg133848117001749146 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\infinity.svg133848117001759108 0
-85C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\semanal.a1129e84.css133848157400811349 0
+85C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\semanal.a1129e84.css133848167494782903 0
 104C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\.bin\update-browserslist-db.cmd133848117006252610 0
 122C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\info.svg133848117001759108 0
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\italic.svg133848117001794167 0
@@ -6070,7 +6069,7 @@
 140C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\square-poll-horizontal.svg133848117004353290 0
 138C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\square-poll-vertical.svg133848117004353290 0
 138C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\square-root-variable.svg133848117004363246 0
-95C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda768.3ae32748.jpg133848157385494157 0
+95C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda768.3ae32748.jpg133848167494772937 0
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\square-rss.svg133848117004373212 0
 136C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\square-share-nodes.svg133848117004383392 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\solid\square-virus.svg133848117004433249 0
@@ -6354,7 +6353,7 @@
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\discourse.svg133848116999475233 0
 103C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@babel\code-frame\package.json133848116992754145 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\dochub.svg133848116999488732 0
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\social.2ec668f6.css.map133848157400876387 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\social.2ec668f6.css.map133848167495201510 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\docker.svg133848116999498717 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\ebay.svg133848116999672656 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\edge-legacy.svg133848116999672656 0
@@ -6434,7 +6433,7 @@
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\nutritionix.svg133848117002673002 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\odysee.svg133848117002703946 0
 127C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\opencart.svg133848117002733850 0
-106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1200.f360e4f0.jpg133848157385494157 0
+106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1200.f360e4f0.jpg133848167494762969 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\openid.svg133848117002733850 0
 127C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\opensuse.svg133848117002733850 0
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\opera.svg133848117002743813 0
@@ -6489,7 +6488,7 @@
 132C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\square-lastfm.svg133848117004281140 0
 136C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\square-letterboxd.svg133848117004281140 0
 139C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\square-odnoklassniki.svg133848117004303446 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1200.6622a91e.jpg133848157363663944 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1200.6622a91e.jpg133848167494782903 0
 136C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\square-pied-piper.svg133848117004333350 0
 132C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\square-tumblr.svg133848117004403346 0
 131C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\square-vimeo.svg133848117004423278 0
@@ -6516,7 +6515,7 @@
 128C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\uncharted.svg133848117005332763 0
 130C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\uniregistry.svg133848117005342729 0
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\unity.svg133848117005342729 0
-97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1920.6f91383f.avif133848157363326974 0
+97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1920.6f91383f.avif133848167494872600 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\untappd.svg133848117005372636 0
 123C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\usps.svg133848117005542907 0
 126C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@fortawesome\fontawesome-free\svgs\brands\vimeo-v.svg133848117005622954 0
@@ -6576,6 +6575,7 @@
 120C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@babel\helper-validator-identifier\package.json133848116993183247 0
 125C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@babel\helper-validator-identifier\lib\identifier.js133848116992293203 0
 129C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@babel\helper-validator-identifier\lib\identifier.js.map133848116992514155 0
+82C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\html\index.html133848071352904849 0
 120C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@babel\helper-validator-identifier\lib\index.js133848116992714283 0
 124C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@babel\helper-validator-identifier\lib\index.js.map133848116992874346 0
 94C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\node_modules\@babel\code-frame\lib133848116992423406 1
@@ -6597,11 +6597,11 @@
 72C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media133848071356771914 1
 76C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\sass\base133848071356801815 1
 81C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\sass\main.scss133848071356821746 0
-77C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\semanal.html133848157400811349 0
+77C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\semanal.html133848167494782903 0
 90C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\sass\pages\landing.scss133848071356831713 0
 89C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\sass\pages\social.scss133848071356851648 0
 96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\sass\componentes\_footer.scss133848071356811785 0
-106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto480.4b5fdf57.avif133848157363748758 0
+106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto480.4b5fdf57.avif133848167494802834 0
 77C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\logo133848071356791847 1
 107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\logo\logotipo-removebg-preview.png133848071356791847 0
 131C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\logo\Trabajo - El-Plan-Operativo-y-de-Recursos-Humanos.pdf133848071356781888 0
@@ -6667,7 +6667,6 @@
 120C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\imagenes\avif\RutinasEjemploPesoMuerto2560.avif133848071353363318 0
 119C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\imagenes\avif\RutinasEjemploPesoMuerto480.avif133848071353363318 0
 119C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\media\imagenes\avif\RutinasEjemploPesoMuerto768.avif133848071353453011 0
-84C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\html\landing.html133848071352904849 0
 82C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\html\login.html133848071352904849 0
 86C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\html\rutinaDia.html133848071352914825 0
 84C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\html\semanal.html133848071352914825 0
@@ -6688,35 +6687,36 @@
 90C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\css\pages\rutinaDia.css133848071352864998 0
 88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\css\pages\semanal.css133848071352864998 0
 87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\fuente\css\pages\social.css133848071352864998 0
-97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1200.6fb86842.avif133848157363748758 0
-96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda480.3d3a5f23.webp133848157363307056 0
-96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda5580.329d54da.jpg133848157400626381 0
-97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda5580.837074fe.avif133848157363883862 0
-96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda768.72179471.webp133848157384544098 0
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1200.9464f8e2.webp133848157363307056 0
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1200.a2eeb837.avif133848157363307056 0
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe2560.35b3e1e6.webp133848157363778657 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe2560.6a8ef2ec.jpg133848157364165759 0
-86C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe480.0104879b.jpg133848157385494157 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe480.7e63d3b8.avif133848157384544098 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe480.83d9cec0.webp133848157384603921 0
-88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe6652.e1bd428e.webp133848157363475568 0
-82C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\home.36383dbd.css133848157400811349 0
-86C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\home.36383dbd.css.map133848157400876387 0
-83C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\login.2ab68ed1.css133848157400811349 0
-87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\login.2ab68ed1.css.map133848157400876387 0
-75C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\login.html133848157400811349 0
-91C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\rutinaDia.92c98b94.css.map133848157400876387 0
-79C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\rutinaDia.html133848157400811349 0
-107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1200.88463fb4.avif133848157384603921 0
-107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1920.55f3601f.avif133848157363778657 0
-107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1920.a49dc424.webp133848157363788628 0
-106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto2560.4f71149f.jpg133848157363673912 0
-107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto2560.e7fa1e64.avif133848157363386349 0
-106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto480.cc12dcb0.webp133848157363748758 0
-105C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto480.ec95f6ac.jpg133848157364165759 0
-107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto4933.87f2ba41.avif133848157384743784 0
-107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto4933.bf3c4a61.webp133848157384723702 0
-106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto768.2661acfe.avif133848157363287102 0
-105C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto768.4230e9f9.jpg133848157363653973 0
-76C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\social.html133848157400811349 0
+97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda1200.6fb86842.avif133848167494822765 0
+96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda480.3d3a5f23.webp133848167494822765 0
+96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda5580.329d54da.jpg133848167494792871 0
+97C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda5580.837074fe.avif133848167495430732 0
+96C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\EjemploEspalda768.72179471.webp133848167494822765 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1200.9464f8e2.webp133848167494842699 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe1200.a2eeb837.avif133848167494832729 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe2560.35b3e1e6.webp133848167495091875 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe2560.6a8ef2ec.jpg133848167494782903 0
+86C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe480.0104879b.jpg133848167494782903 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe480.7e63d3b8.avif133848167494842699 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe480.83d9cec0.webp133848167494842699 0
+88C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\Heroe6652.e1bd428e.webp133848167495311132 0
+82C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\home.36383dbd.css133848167494782903 0
+86C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\home.36383dbd.css.map133848167495211469 0
+83C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\index.34d44dd9.css133848167494792871 0
+83C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\login.2ab68ed1.css133848167494782903 0
+87C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\login.2ab68ed1.css.map133848167495201510 0
+75C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\login.html133848167494782903 0
+91C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\rutinaDia.92c98b94.css.map133848167495211469 0
+79C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\rutinaDia.html133848167494782903 0
+107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1200.88463fb4.avif133848167494852678 0
+107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1920.55f3601f.avif133848167495141700 0
+107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto1920.a49dc424.webp133848167495211469 0
+106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto2560.4f71149f.jpg133848167494772937 0
+107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto2560.e7fa1e64.avif133848167495211469 0
+106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto480.cc12dcb0.webp133848167494802834 0
+105C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto480.ec95f6ac.jpg133848167494772937 0
+107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto4933.87f2ba41.avif133848167495351004 0
+107C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto4933.bf3c4a61.webp133848167495331075 0
+106C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto768.2661acfe.avif133848167494792871 0
+105C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\RutinasEjemploPesoMuerto768.4230e9f9.jpg133848167494762969 0
+76C:\Users\ignac\Desktop\clase\DIW_WEB_palomar_chacon_ignacio\dist\social.html133848167494782903 0
