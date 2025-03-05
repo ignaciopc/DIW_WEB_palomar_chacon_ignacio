@@ -106,7 +106,7 @@
 }
 
 // 480px: Mobile phones
-@media (max-width: 767px) {
+@media (min-width: 451px) and (max-width: 767px) {
     .header {
         padding: 10px 5%;
 
@@ -119,6 +119,25 @@
 
             .nav-link {
                 font-size: 1.5rem;
+
+            }
+        }
+    }
+}
+
+@media (max-width: 450px) {
+    .header {
+        padding: 10px 5%;
+
+        .logo {
+            font-size: 1rem;
+        }
+
+        .nav {
+            gap: 20px;
+
+            .nav-link {
+                font-size: 1.1rem;
 
             }
         }

@@ -7,8 +7,7 @@
 
 body {
     height: 100%; // Asegura que html y body ocupen toda la altura de la ventana
-    display: flex; // Aplica Flexbox al cuerpo
-    flex-direction: column; // Coloca los elementos en columna
+
 }
 
 body::before,

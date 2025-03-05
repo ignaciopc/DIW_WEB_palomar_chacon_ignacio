@@ -141,7 +141,7 @@ a {
     font-size: 1.5rem;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 451px) and (max-width: 767px) {
   .header {
     padding: 10px 5%;
   }
@@ -153,6 +153,20 @@ a {
   }
   .header .nav .nav-link {
     font-size: 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .header {
+    padding: 10px 5%;
+  }
+  .header .logo {
+    font-size: 1rem;
+  }
+  .header .nav {
+    gap: 20px;
+  }
+  .header .nav .nav-link {
+    font-size: 1.1rem;
   }
 }
 .imagen {
