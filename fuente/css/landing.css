@@ -177,9 +177,7 @@ a {
   position: absolute;
   display: flex;
   flex-direction: column;
-  /* Columna en móviles */
   align-items: center;
-  /* Centra el contenedor */
   text-align: center;
   top: 40vh;
   color: white;
@@ -190,7 +188,6 @@ a {
 .contenedor #parrafoMotivacional {
   color: white;
   max-width: 100%;
-  /* Ocupa el 100% del ancho en móviles */
   font-weight: bold;
   font-size: 1.2rem;
   font-family: "Open Sans", serif;
@@ -255,7 +252,6 @@ a {
   .contenedor #parrafoMotivacional {
     color: black;
     font-size: 1.1rem;
-    /* Tamaño de fuente un poco más pequeño para móviles */
   }
 }
 /* Media Queries para pantallas medianas (tablets) */
@@ -266,7 +262,6 @@ a {
   .contenedor #parrafoMotivacional {
     color: white;
     font-size: 1rem;
-    /* Tamaño de fuente un poco más pequeño para móviles */
   }
 }
 /* Media Queries para pantallas grandes (escritorios) */

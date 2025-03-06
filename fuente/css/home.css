@@ -364,8 +364,6 @@ h1 {
   z-index: 1;
 }
 
-/* Media Queries para pantallas pequeñas (móviles) */
-/* Large screens (2560px) */
 @media (min-width: 2560px) {
   h1 {
     font-size: 7rem;

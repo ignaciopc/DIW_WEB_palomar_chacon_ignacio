@@ -18,20 +18,19 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    /* Columna en móviles */
     align-items: center;
-    /* Centra el contenedor */
+   
     text-align: center;
-    top: 40vh; // Ajusta este valor para mover el contenedor hacia abajo
+    top: 40vh; 
     color: white;
     gap: 50px;
     max-width: 40%;
-    left: 10%; // Mueve el contenedor al 60% del contenedor principal
+    left: 10%; 
 
     #parrafoMotivacional {
         color: white;
         max-width: 100%;
-        /* Ocupa el 100% del ancho en móviles */
+        
         font-weight: bold;
         font-size: 1.2rem;
         font-family: "Open Sans", serif;
@@ -58,13 +57,12 @@
         align-items: flex-start;
         text-align: left;
 
-        // Solo afectamos al párrafo
+       
         #parrafoMotivacional {
             font-size: 1.2rem;
-            color: white; // Cambia color para mayor contraste
+            color: white; 
         }
 
-        // Excluimos al botón de los cambios dentro del contenedor
         .registrar {
             margin-left: 50%;
             margin-top: 24vh;
@@ -87,7 +85,7 @@
             color: black;
 
             font-size: 1.1rem;
-            /* Tamaño de fuente un poco más pequeño para móviles */
+           
 
         }
 
@@ -107,7 +105,7 @@
             color: white;
 
             font-size: variables.$tamanio-standar;
-            /* Tamaño de fuente un poco más pequeño para móviles */
+            
 
         }
 
