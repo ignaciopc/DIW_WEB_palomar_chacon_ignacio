@@ -18,7 +18,6 @@ body::after {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: map-get(map-get(variables.$home-backgrounds, large), avif);    
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -122,5 +121,45 @@ td {
     .column {
         height: auto; /* Altura automática para las columnas */
         padding: 20px; /* Padding interno */
+    }
+}
+
+@media (max-width: 479px) {
+    body {
+        &::before {
+            background-image: map-get(map-get(variables.$home-backgrounds, xss), avif);
+        }
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    body {
+        &::before {
+            background-image: map-get(map-get(variables.$home-backgrounds, mobile), avif);
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    body {
+        &::before {
+            background-image: map-get(map-get(variables.$home-backgrounds, tablet), avif);
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 2559px) {
+    body {
+        &::before {
+            background-image: map-get(map-get(variables.$home-backgrounds, small), avif);
+        }
+    }
+}
+
+@media (min-width: 2560px) {
+    body {
+        &::before {
+            background-image: map-get(map-get(variables.$home-backgrounds, large), avif);
+        }
     }
 }
