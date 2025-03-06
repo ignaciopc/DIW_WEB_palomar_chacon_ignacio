@@ -5,6 +5,7 @@
 @use "../global/funciones.scss";
 @use "../componentes/footer.scss";
 @use "../componentes/boton.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 body {
     height: 100%; 

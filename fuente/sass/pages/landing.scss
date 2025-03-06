@@ -3,6 +3,7 @@
 @use "../global/variables";
 @use "../componentes/boton";
 @use "../componentes/footer.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
 
 
 
@@ -10,8 +11,9 @@
 
 
 
-
-
+body {
+    height: 100%; // Asegura que html y body ocupen toda la altura de la ventana
+}
 
 .contenedor {
     position: absolute;
@@ -38,6 +40,12 @@
 
 }
 
+main {
+    display: flex;
+    justify-content: center; // Centra horizontalmente el formulario
+    min-height: 70vh; // Asegura que haya suficiente espacio para centrar
+}
+
 .registrar button {
     @include boton.red-button(20px);
     justify-content: center;
@@ -51,20 +59,29 @@
 @media (max-width: 479px) {
     .contenedor {
         top: 15%;
-        left: 5%;
-        max-width: 40%;
+        left: 25%;
+        max-width: 60%;
         align-items: flex-start;
         text-align: left;
 
 
         #parrafoMotivacional {
-            font-size: 1.2rem;
+            font-size: 1.5rem;
             color: white;
         }
 
+        .registrar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            margin-left: 10%;
+        }
+
         .registrar button {
-            width: 120px;
-            font-size: 10px;
+
+            width: 150px;
+            font-size: 16px;
         }
     }
 
@@ -74,69 +91,84 @@
         display: block;
         position: relative;
     }
-    
+
     .imagen img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        filter: blur(4px); /* Aplica el filtro de desenfoque a la imagen */
+        filter: blur(5px);
     }
-    
-
 }
 
 
 @media (min-width: 480px) and (max-width: 767px) {
 
+    .imagen {
+        width: 100%;
+        height: 100vh; // Ajusta la altura según sea necesario
+
+        picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; // Ajusta la imagen para cubrir todo el contenedor
+            filter: blur(5px);
+
+        }
+    }
 
     .contenedor {
-        top: 3vh;
-        position: relative;
-
-        margin-left: 20vw;
-
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: grid;
+        place-items: center; /* Centra tanto vertical como horizontalmente */
+        text-align: center;
         #parrafoMotivacional {
-            color: black;
-
-            font-size: 1.1rem;
-
-
+            font-size: 40px; /* Ajusta el tamaño según sea necesario */
         }
-
         .registrar button {
-            margin-bottom: 40px;
+            font-size: 40px; /* Ajusta el tamaño según sea necesario */
+            width: 300px; /* Ajusta el ancho según sea necesario */
         }
-
-        .imagen {
-            width: 100%;
-            /* Asegura que el contenedor ocupe todo el ancho disponible */
-            display: block;
-            /* Elimina cualquier espacio innecesario */
-        }
-
-
-
     }
 
 }
 
 /* Media Queries para pantallas medianas (tablets) */
 @media (min-width: 768px) and (max-width: 1199px) {
+    .imagen {
+        width: 100%;
+        height: 100vh; // Ajusta la altura según sea necesario
 
-
-    .contenedor {
-        top: 20vh;
-
-        #parrafoMotivacional {
-            color: white;
-
-            font-size: variables.$tamanio-standar;
-
+        picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; // Ajusta la imagen para cubrir todo el contenedor
+            filter: blur(5px);
 
         }
-
-
     }
+
+    .contenedor {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: grid;
+        place-items: center; /* Centra tanto vertical como horizontalmente */
+        text-align: center;
+        #parrafoMotivacional {
+            font-size: 40px; /* Ajusta el tamaño según sea necesario */
+        }
+        .registrar button {
+            margin-top: 20px;
+            font-size: 40px; /* Ajusta el tamaño según sea necesario */
+            width: 300px; /* Ajusta el ancho según sea necesario */
+        }
+    }
+
+   
 }
 
 /* Media Queries para pantallas grandes (escritorios) */
