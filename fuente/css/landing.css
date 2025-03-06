@@ -229,7 +229,24 @@ a {
 }
 
 /* Media Queries para pantallas pequeñas (menos de 768px) */
-@media (max-width: 767px) {
+@media (max-width: 479px) {
+  .contenedor {
+    top: 15%;
+    left: 5%;
+    max-width: 40%;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .contenedor #parrafoMotivacional {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .contenedor .registrar {
+    margin-left: 50%;
+    margin-top: 24vh;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
   .contenedor {
     top: 3vh;
     position: relative;
