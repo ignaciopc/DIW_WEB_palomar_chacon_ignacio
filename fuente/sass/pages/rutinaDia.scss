@@ -5,10 +5,7 @@
 @use "../componentes/footer.scss";
 @use "../componentes/boton.scss";
 
-body {
-    height: 100%; // Asegura que html y body ocupen toda la altura de la ventana
 
-}
 
 body::before,
 body::after {
@@ -46,7 +43,6 @@ main {
     padding: 40px; /* Aumentar el padding interno */
     box-sizing: border-box;
     width: 60vw; /* Limitar el ancho máximo del contenedor */
-    height: 90vh; /* Aumentar la altura del contenedor */
     max-height: 700px; /* Limitar el ancho máximo del contenedor */
     margin-bottom: 150px;
 }
