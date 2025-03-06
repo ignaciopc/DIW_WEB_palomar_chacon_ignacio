@@ -2,14 +2,13 @@
 @use "../componentes/header";
 @use "../global/variables";
 @use "../componentes/boton";
+@use "../componentes/footer.scss";
 
 
 
 
 
-.imagen {
-    position: relative;
-}
+
 
 
 
@@ -63,10 +62,9 @@
             color: white; 
         }
 
-        .registrar {
-            margin-left: 50%;
-            margin-top: 24vh;
-
+        .registrar button {
+        width: 120px;
+        font-size: 10px;
         }
     }
 }
@@ -89,6 +87,9 @@
 
         }
 
+        .registrar button {
+            margin-bottom: 40px;
+            }
 
     }
 
