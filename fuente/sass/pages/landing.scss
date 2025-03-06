@@ -18,18 +18,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   
+
     text-align: center;
-    top: 40vh; 
+    top: 40vh;
     color: white;
     gap: 50px;
     max-width: 40%;
-    left: 10%; 
+    left: 10%;
 
     #parrafoMotivacional {
         color: white;
         max-width: 100%;
-        
+
         font-weight: bold;
         font-size: 1.2rem;
         font-family: "Open Sans", serif;
@@ -56,17 +56,33 @@
         align-items: flex-start;
         text-align: left;
 
-       
+
         #parrafoMotivacional {
             font-size: 1.2rem;
-            color: white; 
+            color: white;
         }
 
         .registrar button {
-        width: 120px;
-        font-size: 10px;
+            width: 120px;
+            font-size: 10px;
         }
     }
+
+    .imagen {
+        width: 100%;
+        height: 100vh;
+        display: block;
+        position: relative;
+    }
+    
+    .imagen img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: blur(4px); /* Aplica el filtro de desenfoque a la imagen */
+    }
+    
+
 }
 
 
@@ -83,20 +99,23 @@
             color: black;
 
             font-size: 1.1rem;
-           
+
 
         }
 
         .registrar button {
             margin-bottom: 40px;
-            }
-            .imagen {
-                width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
-                display: block; /* Elimina cualquier espacio innecesario */
-            }
-            
-            
-       
+        }
+
+        .imagen {
+            width: 100%;
+            /* Asegura que el contenedor ocupe todo el ancho disponible */
+            display: block;
+            /* Elimina cualquier espacio innecesario */
+        }
+
+
+
     }
 
 }
@@ -112,7 +131,7 @@
             color: white;
 
             font-size: variables.$tamanio-standar;
-            
+
 
         }
 
