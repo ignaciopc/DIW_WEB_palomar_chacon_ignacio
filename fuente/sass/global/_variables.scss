@@ -17,33 +17,33 @@ $tamanio-nueve: 9rem;
 // Mapa de imágenes de fondo por resolución y formato con nombres de archivo modificados
 $home-backgrounds: (
     large: (
-        avif: url('../media/imagenes/avif/FondoMenu7580.avif'),
-        webp: url('../media/imagenes/webp/FondoMenu7580.webp'),
-        jpg:  url('../media/imagenes/jpg/FondoMenu7580.jpg')
+        avif: url('../../media/imagenes/avif/FondoMenu7580.avif'),
+        webp: url('../../media/imagenes/webp/FondoMenu7580.webp'),
+        jpg:  url('../../media/imagenes/jpg/FondoMenu7580.jpg')
     ),
     standard: (
-        avif: url('../media/imagenes/avif/FondoMenu2560.avif'),
-        webp: url('../media/imagenes/webp/FondoMenu2560.webp'),
-        jpg: url('../media/imagenes/jpg/FondoMenu2560.jpg')
+        avif: url('../../media/imagenes/avif/FondoMenu2560.avif'),
+        webp: url('../../media/imagenes/webp/FondoMenu2560.webp'),
+        jpg: url('../../media/imagenes/jpg/FondoMenu2560.jpg')
     ),
     small: (
-        avif: url('../media/imagenes/avif/FondoMenu1920.avif'),
-        webp: url('../media/imagenes/webp/FondoMenu1920.webp'),
-        jpg: url('../media/imagenes/jpg/FondoMenu1920.jpg')
+        avif: url('../../media/imagenes/avif/FondoMenu1920.avif'),
+        webp: url('../../media/imagenes/webp/FondoMenu1920.webp'),
+        jpg: url('../../media/imagenes/jpg/FondoMenu1920.jpg')
     ),
     tablet: (
-        avif: url('../media/imagenes/avif/FondoMenu1200.avif'),
-        webp: url('../media/imagenes/webp/FondoMenu1200.webp'),
-        jpg: url('../media/imagenes/jpg/FondoMenu1200.jpg')
+        avif: url('../../media/imagenes/avif/FondoMenu1200.avif'),
+        webp: url('../../media/imagenes/webp/FondoMenu1200.webp'),
+        jpg: url('../../media/imagenes/jpg/FondoMenu1200.jpg')
     ),
     mobile: (
-        avif: url('../media/imagenes/avif/FondoMenu758.avif'),
-        webp: url('../media/imagenes/webp/FondoMenu758.webp'),
-        jpg: url('../media/imagenes/jpg/FondoMenu758.jpg')
+        avif: url('../../media/imagenes/avif/FondoMenu758.avif'),
+        webp: url('../../media/imagenes/webp/FondoMenu758.webp'),
+        jpg: url('../../media/imagenes/jpg/FondoMenu758.jpg')
     ),
     xss: (
-        avif: url('../media/imagenes/avif/FondoMenu480.avif'),
-        webp: url('../media/imagenes/webp/FondoMenu480.webp'),
-        jpg: url('../media/imagenes/jpg/FondoMenu480.jpg')
+        avif: url('../../media/imagenes/avif/FondoMenu480.avif'),
+        webp: url('../../media/imagenes/webp/FondoMenu480.webp'),
+        jpg: url('../../media/imagenes/jpg/FondoMenu480.jpg')
     )
 );
