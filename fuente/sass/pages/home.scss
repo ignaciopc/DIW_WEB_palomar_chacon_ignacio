@@ -63,7 +63,6 @@ h1 {
 }
 
 #home {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -97,12 +96,12 @@ h1 {
 // Botón de Crear
 .crear {
     @include boton.red-button;
-    margin-top: 20px;
     cursor: pointer;
     border-radius: 30px;
     width: 100px;
     justify-content: center;
-    z-index: 1; // Asegura que el botón esté sobre las capas de fondo
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .busqueda {
@@ -140,6 +139,11 @@ h1 {
             width: 30vw;
         }
     }
+
+    .crear {
+        width: 200px;
+        font-size:30px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 2559px) {
@@ -173,8 +177,8 @@ h1 {
         }
     }
     .crear {
-        width: 200px;
-        font-size: 30px;
+        width: 150px;
+        font-size: 18px;
     }
 }
 
@@ -218,6 +222,10 @@ $nombre: "contenedorHome";
             margin-top: 10px;
             width: 80vw;
         }
+    }
+
+    .crear {
+    margin-top: 20px;
     }
  
 

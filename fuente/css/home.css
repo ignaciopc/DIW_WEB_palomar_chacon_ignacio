@@ -291,7 +291,6 @@ h1 {
 }
 
 #home {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -332,12 +331,12 @@ h1 {
   cursor: pointer;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  margin-top: 20px;
   cursor: pointer;
   border-radius: 30px;
   width: 100px;
   justify-content: center;
-  z-index: 1;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .crear button {
   color: white;
@@ -386,6 +385,10 @@ h1 {
   .contenedorHome .tarjeta {
     width: 30vw;
   }
+  .crear {
+    width: 200px;
+    font-size: 30px;
+  }
 }
 @media (min-width: 1200px) and (max-width: 2559px) {
   .contenedorHome .tarjeta {
@@ -415,8 +418,8 @@ h1 {
     width: 40vw;
   }
   .crear {
-    width: 200px;
-    font-size: 30px;
+    width: 150px;
+    font-size: 18px;
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
@@ -455,6 +458,9 @@ h1 {
   .contenedorHome .tarjeta {
     margin-top: 10px;
     width: 80vw;
+  }
+  .crear {
+    margin-top: 20px;
   }
 }
 
