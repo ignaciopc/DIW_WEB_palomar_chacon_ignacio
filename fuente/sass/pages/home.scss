@@ -145,6 +145,15 @@ h1 {
 }
 
 @media (min-width: 1200px) and (max-width: 2559px) {
+    body {
+        &::before {
+
+            background-image: map-get(map-get(variables.$home-backgrounds, small), avif);        
+
+        }
+    
+     
+    }
     .contenedorHome {
         .tarjeta {
             width: 30vw;
@@ -165,6 +174,16 @@ h1 {
 
 /* Tablets (768px) */
 @media (min-width: 768px) and (max-width: 1199px) {
+
+    body {
+        &::before {
+
+            background-image: map-get(map-get(variables.$home-backgrounds, tablet), avif);        
+
+        }
+    
+     
+    }
     h1 {
         font-size: variables.$tamanio-cuatro;
     }
@@ -184,6 +203,14 @@ $nombre: "contenedorHome";
 
 // Moviles medianos y tablets pequeñas
 @media (min-width: 480px) and (max-width: 767px) {
+    body {
+        &::before {
+
+            background-image: map-get(map-get(variables.$home-backgrounds, mobile), avif);        
+
+        }
+    }
+    
     h1 {
         margin: 20px; 
         font-size: 4rem;
@@ -205,6 +232,14 @@ $nombre: "contenedorHome";
 
 /* Mobile phones (480px) */
 @media (max-width: 479px) {
+    body {
+        &::before {
+
+            background-image: map-get(map-get(variables.$home-backgrounds, xss), avif);        
+
+        }
+    }
+    
     h1 {
         margin: 10px; 
         font-size: 3rem;

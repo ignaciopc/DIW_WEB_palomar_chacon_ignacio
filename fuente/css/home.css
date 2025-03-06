@@ -389,6 +389,9 @@ h1 {
   }
 }
 @media (min-width: 1200px) and (max-width: 2559px) {
+  body::before {
+    background-image: url("../media/imagenes/avif/FondoMenu1920.avif");
+  }
   .contenedorHome .tarjeta {
     width: 30vw;
   }
@@ -406,6 +409,9 @@ h1 {
 }
 /* Tablets (768px) */
 @media (min-width: 768px) and (max-width: 1199px) {
+  body::before {
+    background-image: url("../media/imagenes/avif/FondoMenu1200.avif");
+  }
   h1 {
     font-size: 4rem;
   }
@@ -421,6 +427,9 @@ h1 {
   }
 }
 @media (min-width: 480px) and (max-width: 767px) {
+  body::before {
+    background-image: url("../media/imagenes/avif/FondoMenu758.avif");
+  }
   h1 {
     margin: 20px;
     font-size: 4rem;
@@ -441,6 +450,9 @@ h1 {
 }
 /* Mobile phones (480px) */
 @media (max-width: 479px) {
+  body::before {
+    background-image: url("../media/imagenes/avif/FondoMenu480.avif");
+  }
   h1 {
     margin: 10px;
     font-size: 3rem;
