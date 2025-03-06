@@ -90,7 +90,13 @@
         .registrar button {
             margin-bottom: 40px;
             }
-
+            .imagen {
+                width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+                display: block; /* Elimina cualquier espacio innecesario */
+            }
+            
+            
+       
     }
 
 }

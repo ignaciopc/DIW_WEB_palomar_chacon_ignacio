@@ -332,6 +332,10 @@ a {
   .contenedor .registrar button {
     margin-bottom: 40px;
   }
+  .contenedor .imagen {
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho disponible */
+    display: block; /* Elimina cualquier espacio innecesario */
+  }
 }
 /* Media Queries para pantallas medianas (tablets) */
 @media (min-width: 768px) and (max-width: 1199px) {
