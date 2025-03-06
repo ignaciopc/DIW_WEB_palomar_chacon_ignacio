@@ -412,7 +412,7 @@ main {
     max-width: calc(50% - 20px);
   }
   .start-button {
-    width: 50%;
+    width: 100%;
   }
   .check-icon {
     margin-left: 10px;
@@ -431,7 +431,7 @@ main {
     margin-bottom: 10px;
   }
   .start-button {
-    width: 50%;
+    width: 100%;
   }
   .check-icon {
     margin-left: 10px;
