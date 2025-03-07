@@ -198,39 +198,45 @@ main {
 @media (max-width: 479px) {
     body {
         &::before {
-            background-image: map-get(map-get(variables.$home-backgrounds, xss), avif);
-        }
+            background-image: image-set(map-get(map-get(variables.$home-backgrounds, xss), avif) type("image/avif"),
+                    map-get(map-get(variables.$home-backgrounds, xss), webp) type("image/webp"),
+                    map-get(map-get(variables.$home-backgrounds, xss), jpg) type("image/jpeg"));        }
     }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
     body {
         &::before {
-            background-image: map-get(map-get(variables.$home-backgrounds, mobile), avif);
-        }
+            background-image: image-set(map-get(map-get(variables.$home-backgrounds, mobile), avif) type("image/avif"),
+                    map-get(map-get(variables.$home-backgrounds, mobile), webp) type("image/webp"),
+                    map-get(map-get(variables.$home-backgrounds, mobile), jpg) type("image/jpeg"));        }
     }
 }
 
 @media (min-width: 768px) and (max-width: 1199px) {
     body {
         &::before {
-            background-image: map-get(map-get(variables.$home-backgrounds, tablet), avif);
-        }
+            background-image: image-set(map-get(map-get(variables.$home-backgrounds, tablet), avif) type("image/avif"),
+                    map-get(map-get(variables.$home-backgrounds, tablet), webp) type("image/webp"),
+                    map-get(map-get(variables.$home-backgrounds, tablet), jpg) type("image/jpeg"));        }
     }
 }
 
 @media (min-width: 1200px) and (max-width: 2559px) {
     body {
         &::before {
-            background-image: map-get(map-get(variables.$home-backgrounds, small), avif);
-        }
+            background-image: image-set(map-get(map-get(variables.$home-backgrounds, small), avif) type("image/avif"),
+                    map-get(map-get(variables.$home-backgrounds, small), webp) type("image/webp"),
+                    map-get(map-get(variables.$home-backgrounds, small), jpg) type("image/jpeg"));
+           }
     }
 }
 
 @media (min-width: 2560px) {
     body {
         &::before {
-            background-image: map-get(map-get(variables.$home-backgrounds, large), avif);
-        }
+            background-image: image-set(map-get(map-get(variables.$home-backgrounds, large), avif) type("image/avif"),
+                    map-get(map-get(variables.$home-backgrounds, large), webp) type("image/webp"),
+                    map-get(map-get(variables.$home-backgrounds, large), jpg) type("image/jpeg"));        }
     }
 }
