@@ -26,8 +26,6 @@ main {
  
 
 .container {
-    display: flex;
-    flex-direction: column;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -39,10 +37,6 @@ main {
 .image-container {
     position: relative; /* Necesario para que los elementos posicionados absolutamente se refieran a este contenedor */
     flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 20px;
 }
 
 .icon-top-left {
@@ -89,14 +83,12 @@ picture img {
 }
 
 .post{
-    margin-top: 10px;
     display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
 }
 
 #profile {
     font-size: 25px; /* Cambia el tamaño según tus necesidades */
+    margin-bottom: 5px;
 }
 
 
@@ -113,9 +105,7 @@ picture img {
         gap: 30px; // Aumenta el espacio entre los elementos dentro del post
     }
 
-    .image-container {
-        margin-right: 30px; // Ajusta el margen derecho para equilibrar el diseño
-    }
+  
 
     .text-container p {
         font-size: 25px; // Aumenta el tamaño del texto si es necesario
@@ -132,19 +122,13 @@ picture img {
         flex-direction: column; // Asegura que los elementos se organicen en columna
     }
 
-    .image-container {
-        display: flex; // Habilita Flexbox
-        justify-content: center; // Centra horizontalmente
-        align-items: center; // Centra verticalmente
-        margin: 0 auto; // Centra el contenedor completo si es necesario
-        text-align: center; // Alinea el contenido al centro (adicional)
-    }
+
 
     picture img {
         max-width: 70%; // Reducimos el tamaño de la imagen
         height: auto; // Mantenemos la relación de aspecto
         display: block; // Evita espacios adicionales debajo de la imagen
-        margin: 0 auto; // Centramos la imagen dentro del contenedor
+        margin:  auto; // Centramos la imagen dentro del contenedor
     }
 }
 
@@ -152,9 +136,6 @@ picture img {
 .post{
     flex-direction: column;
 }
-.icons {
 
-margin-top: 30px;
-}
 
 }

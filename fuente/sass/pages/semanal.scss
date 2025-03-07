@@ -62,7 +62,6 @@ main {
     text-align: center;
     color: white;
     font-size: 24px;
-    margin-bottom: 20px;
 }
 
 .days-container {
@@ -91,7 +90,6 @@ main {
 .day-name {
     font-size: 18px;
     color: black;
-    margin-bottom: 10px;
 }
 
 
@@ -110,7 +108,6 @@ main {
 .check-icon {
     font-size: 20px; /* Tamaño del ícono */
     color: green; /* Color del ícono */
-    margin-top: 5px;
 }
 
 @media (min-width: 1800px) {
@@ -122,7 +119,7 @@ main {
 
     .week-header {
         font-size: 36px; // Aumenta el tamaño del texto del encabezado
-        margin-bottom: 40px; // Aumenta el margen inferior
+        margin-bottom: 30px;
     }
 
     .day {
@@ -133,7 +130,6 @@ main {
 
     .day-name {
         font-size: 24px; // Aumenta el tamaño del nombre del día
-        margin-bottom: 20px; // Aumenta el margen inferior
     }
 
     .start-button {
@@ -141,9 +137,7 @@ main {
         padding: 15px 30px; // Aumenta el padding del botón
     }
 
-    .check-icon {
-        margin-top: 20px;
-    }
+
 }
 
 // Media Query para pantallas entre 501px y 767px
@@ -164,9 +158,7 @@ main {
 
     }
 
-    .check-icon {
-        margin-left: 10px;
-    }
+
 }
 
 // Media Query para pantallas menores a 500px
@@ -178,11 +170,11 @@ main {
     .days-container {
         flex-direction: column; // Coloca los días en una columna
         align-items: center; // Centra los días horizontalmente
+        gap: 20px; // Espaciado entre los días
     }
 
     .day {
         width: 100%; // Cada día ocupará todo el ancho del contenedor
-        margin-bottom: 10px; // Agrega espacio entre los días
     }
 
     .start-button {
@@ -190,9 +182,7 @@ main {
 
     }
 
-    .check-icon {
-        margin-left: 10px;
-    }
+ 
 }
 
 @media (max-width: 479px) {

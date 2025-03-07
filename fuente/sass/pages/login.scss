@@ -30,10 +30,7 @@ body {
 }
 
 .container {
-    margin-top: 10vh; 
-    margin-bottom: 10vh; 
-    margin-left: auto; 
-    margin-right: auto; 
+      
     background-color: white;
     padding: 40px; 
     border-radius: 10px; 
@@ -42,18 +39,15 @@ body {
     text-align: left; 
 }
 
-h2 {
-    margin-bottom: 20px;
+
+.todo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
-.input-group {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column; 
-}
 
 .input-group label {
-    margin-bottom: 10px; 
     font-size: 1rem; 
     font-weight: bold; 
     text-align: left; 
@@ -71,6 +65,7 @@ h2 {
 }
 
 .input-group input:focus {
+    
     border-bottom-color: red; 
 }
 
@@ -78,15 +73,9 @@ h2 {
     display: flex; 
     align-items: center; 
     justify-content: space-between; 
-    margin-bottom: 20px; 
 }
 
-#recordar {
-    display: flex; 
-    align-items: center; 
-    gap: 10px; 
 
-}
 
 /* Estilo específico para el enlace "Registro" */
 #registro {
@@ -112,30 +101,72 @@ h2 {
 .btn-login:hover {
     background-color: darkred;
 }
-@media (min-width: 1600px) {
+
+
+@media (min-width: 2501px) {
     h2 {
-        font-size: 3rem;
-        margin-bottom: 100px;
+        font-size: 4rem;
     }
 
     .container {
         width: 40%; 
         height: 60vh;
         padding: 30px; 
-        margin-top: auto;
-        display: flex; 
-        flex-direction: column; 
-        box-sizing: border-box; 
+
     }
 
     .input-group {
-        margin-bottom: 20px; 
+        width: 100%; 
+    }
+
+    .input-group label {
+        font-size: 2rem;
+    }
+
+    .input-group input {
+        font-size: 3rem; 
+    }
+
+    .btn-login {
+        font-size: 1.7rem; 
+        padding: 12px 25px; 
+        width: 30%;
+    }
+
+    #registro {
+        font-size: 2rem; 
+        text-align: center; 
+        width: 100%; 
+    }
+
+    #recordar {
+        font-size: 2rem; 
+    }
+
+    .todo{
+
+        gap: 80px;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 2500px) {
+    h2 {
+        font-size: 3rem;
+    }
+
+    .container {
+        width: 40%; 
+        height: 60vh;
+        padding: 30px; 
+
+    }
+
+    .input-group {
         width: 100%; 
     }
 
     .input-group label {
         font-size: 1.5rem;
-        margin-bottom: 10px; 
     }
 
     .input-group input {
@@ -159,30 +190,24 @@ h2 {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 801px) and (max-width: 1199px) {
     h2 {
         font-size: 3rem;
-        margin-bottom: 100px;
     }
 
     .container {
 
         width: 70%;
         height: 50vh; 
-        padding: 30px; 
-        display: flex; 
-        flex-direction: column;
-        box-sizing: border-box; 
+
     }
 
     .input-group {
-        margin-bottom: 20px;
         width: 100%; 
     }
 
     .input-group label {
         font-size: 1.5rem; 
-        margin-bottom: 10px; 
     }
 
     .input-group input {
@@ -190,7 +215,7 @@ h2 {
     }
 
     .btn-login {
-        font-size: 1.4rem; 
+        font-size: 1rem; 
         padding: 12px 25px; 
         width: 30%; 
     }
@@ -210,8 +235,7 @@ h2 {
     .container {
         width: 90%; 
         padding: 20px; 
-        margin-top: 5vh; 
-        margin-bottom: 5vh;
+
     }
 
     .input-group input {
