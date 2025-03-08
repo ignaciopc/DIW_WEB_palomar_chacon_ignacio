@@ -29,19 +29,18 @@ body {
     left: 10%;
 
     #parrafoMotivacional {
-        color: white; /* Color del texto */
-        max-width: 100%; /* Ajusta el ancho máximo al 100% */
+        color: white; 
+        max-width: 100%; 
     
-        font-weight: bold; /* Texto en negrita */
-        font-size: 1.2rem; /* Tamaño del texto */
-        font-family: "Open Sans", sans-serif; /* Fuente del texto */
+        font-weight: bold; 
+        font-size: 1.2rem;
+        font-family: "Open Sans", sans-serif; 
     
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto para mayor contraste */
-        background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente claro detrás del texto */
-        padding: 10px; /* Espacio alrededor del texto */
-        border-radius: 8px; /* Bordes redondeados */
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del contenedor */
-        display: inline-block; /* Para que el fondo se ajuste al contenido */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 255, 255, 0.1); 
+        padding: 10px; 
+        border-radius: 8px; 
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
     }
 
 

@@ -110,13 +110,6 @@ main {
     @include boton.red-button;
     cursor: pointer;
 
-    /* Estilo adicional para centrar perfectamente el botón */
-    width: 100%; /* Hace que el botón ocupe todo el ancho disponible dentro del contenedor */
-    max-width: 200px; /* Limita el ancho máximo del botón (ajusta según sea necesario) */
-    text-align: center; /* Alinea el texto del botón al centro */
-    justify-content: center;
-    font-weight: bold;
-
     /* Estilo de fondo */
     background-color: #D83C2A; /* Fondo más oscuro para mayor contraste */
     border: 2px solid #B93520; /* Borde más oscuro */
