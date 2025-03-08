@@ -112,8 +112,11 @@ main {
     text-align: center; // Alinea el texto del botón al centro
     justify-content: center;
     font-weight: bold;
-}
 
+    & > article {
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Contorno negro */
+    }
+}
 
 .check-icon {
     font-size: 20px;
@@ -165,10 +168,7 @@ main {
         max-width: calc(50% - 20px); // Limita el ancho máximo para mantener consistencia
     }
 
-    .start-button {
-        width: 100%;
 
-    }
 
 
 }
@@ -189,10 +189,6 @@ main {
         width: 100%; // Cada día ocupará todo el ancho del contenedor
     }
 
-    .start-button {
-        width: 100%;
-
-    }
 
 
 }
