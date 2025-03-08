@@ -111,8 +111,7 @@ main {
     max-width: 200px; // Limita el ancho máximo del botón (ajusta según sea necesario)
     text-align: center; // Alinea el texto del botón al centro
     justify-content: center;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1); /* Sombra de texto */
-
+    font-weight: bold;
 }
 
 
@@ -146,7 +145,7 @@ main {
     }
 
     .start-button {
-        font-size: 20px; // Aumenta el tamaño del texto del botón
+        font-size: 28px; // Aumenta el tamaño del texto del botón
         padding: 15px 30px; // Aumenta el padding del botón
     }
 
