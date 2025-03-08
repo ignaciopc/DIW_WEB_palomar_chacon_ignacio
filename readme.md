@@ -72,4 +72,4 @@ Esto te llevará directamente al navegador donde podrás ver la página en tiemp
 
 ## Pruebas de accesibildad 
 Para ver las dos pruebas de accesibilidad hechas al proyecto picnhe al siguiente enlace.
-- [Ver documento PDF](https://raw.githubusercontent.com/ignaciopc/DIW_WEB_palomar_chacon_ignacio/main/Tarea14Accesibilidad.pdf)
+- [Ver documento PDF](./Tarea14Accesibilidad.pdf)
