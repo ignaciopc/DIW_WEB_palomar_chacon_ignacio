@@ -107,7 +107,7 @@ main {
     color: black;
 }
 .start-button {
-    @include boton.red-button; /* Mantén tu estilo original */
+    @include boton.red-button;
     cursor: pointer;
 
     /* Estilo adicional para centrar perfectamente el botón */
@@ -118,8 +118,8 @@ main {
     font-weight: bold;
 
     /* Estilo de fondo */
-    background-color: #FF5733; /* Color de fondo más brillante */
-    border: 2px solid #D83C2A; /* Borde más visible */
+    background-color: #D83C2A; /* Fondo más oscuro para mayor contraste */
+    border: 2px solid #B93520; /* Borde más oscuro */
     border-radius: 8px; /* Borde redondeado */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Animación para cambio de color y transformaciones */
 
@@ -128,11 +128,13 @@ main {
     
     /* Efecto hover para destacar el botón */
     &:hover {
-        background-color: #D83C2A; /* Cambia el color de fondo cuando el usuario pasa el ratón por encima */
+        background-color: #B93520; /* Cambia el color de fondo cuando el usuario pasa el ratón por encima */
         transform: translateY(-2px); /* Efecto de levantamiento al pasar el ratón */
     }
 
+    /* Estilo del texto: blanco sobre fondo oscuro */
     & > article {
+        color: #FFFFFF; /* Texto blanco para alto contraste */
         text-shadow: 
             -2px -2px 0 rgba(0, 0, 0, 0.8), 
             2px -2px 0 rgba(0, 0, 0, 0.8), 
@@ -140,6 +142,7 @@ main {
             2px 2px 0 rgba(0, 0, 0, 0.8); /* Contorno negro más pronunciado */
     }
 }
+
 
 .check-icon {
     font-size: 20px;
