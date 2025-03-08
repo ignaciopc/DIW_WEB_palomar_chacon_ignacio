@@ -38,7 +38,7 @@
 
 - **Sass**: El proyecto  incluye SASS como preprocesador CSS.
 - **Vite**: Como empaquetador para traducir, prefijar, minimizar y empaquetar los archivos.
-- **Node.js**: Para configurar el flujo de trabajo de TailwindCSS y Vite.
+- **Node.js**: Para configurar el flujo de trabajo.
 
 
 
