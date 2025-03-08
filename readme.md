@@ -24,10 +24,9 @@
 │    ├── pages
 │    ├── main.scss
 │    └── index.html 
+│ 
+│ 
 ├── node_modules
-│
-├── produccion
-│
 ├── .gitignore
 ├── package-lock.json
 ├── package.json
