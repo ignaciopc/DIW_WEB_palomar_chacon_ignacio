@@ -71,5 +71,5 @@ npm run dev
 Esto te llevará directamente al navegador donde podrás ver la página en tiempo real. 
 
 ## Pruebas de accesibildad 
-Para ver las pruebas de accesibilidad hechas al proyecto al cual se le pasan dos pruebas de accesibilidad automatizadas.
-[Ver documento PDF](https://raw.githubusercontent.com/ignaciopc/DIW_WEB_palomar_chacon_ignacio/main/Tarea14Accesibilidad.pdf)
+Para ver las dos pruebas de accesibilidad hechas al proyecto picnhe al siguiente enlace.
+- [Ver documento PDF](https://raw.githubusercontent.com/ignaciopc/DIW_WEB_palomar_chacon_ignacio/main/Tarea14Accesibilidad.pdf)
