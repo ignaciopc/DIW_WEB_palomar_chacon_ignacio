@@ -107,7 +107,6 @@ main {
     color: black;
 }
 
-
 .start-button {
     @include boton.red-button;
     cursor: pointer;
@@ -119,16 +118,14 @@ main {
     justify-content: center;
     font-weight: bold;
 
-    &>article {
-        text-shadow:
-            -2px -2px 0 rgba(0, 0, 0, 0.7),
-            2px -2px 0 rgba(0, 0, 0, 0.7),
-            -2px 2px 0 rgba(0, 0, 0, 0.7),
-            2px 2px 0 rgba(0, 0, 0, 0.7);
-        /* Contorno negro más pronunciado */
+    & > article {
+        text-shadow: 
+            -2px -2px 0 rgba(0, 0, 0, 0.8), 
+            2px -2px 0 rgba(0, 0, 0, 0.8), 
+            -2px 2px 0 rgba(0, 0, 0, 0.8), 
+            2px 2px 0 rgba(0, 0, 0, 0.8); /* Contorno negro más pronunciado */
     }
 }
-
 .check-icon {
     font-size: 20px;
     /* Tamaño del ícono */
