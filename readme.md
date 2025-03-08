@@ -73,4 +73,4 @@ Esto te llevará directamente al navegador donde podrás ver la página en tiemp
 
 ## Pruebas de accesibildad 
 Para ver las pruebas de accesibilidad hechas al proyecto al cual se le pasan dos pruebas de accesibilidad automatizadas.
-[Ver documento PDF](./Tarea14Accesibilidad.pdf)
+[Ver documento PDF](https://raw.githubusercontent.com/ignaciopc/DIW_WEB_palomar_chacon_ignacio/main/Tarea14Accesibilidad.pdf)
