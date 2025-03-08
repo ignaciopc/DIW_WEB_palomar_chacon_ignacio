@@ -106,17 +106,31 @@ main {
     font-size: 18px;
     color: black;
 }
-
 .start-button {
-    @include boton.red-button;
+    @include boton.red-button; /* Mantén tu estilo original */
     cursor: pointer;
 
-    // Estilo adicional para centrar perfectamente el botón
-    width: 100%; // Hace que el botón ocupe todo el ancho disponible dentro del contenedor
-    max-width: 200px; // Limita el ancho máximo del botón (ajusta según sea necesario)
-    text-align: center; // Alinea el texto del botón al centro
+    /* Estilo adicional para centrar perfectamente el botón */
+    width: 100%; /* Hace que el botón ocupe todo el ancho disponible dentro del contenedor */
+    max-width: 200px; /* Limita el ancho máximo del botón (ajusta según sea necesario) */
+    text-align: center; /* Alinea el texto del botón al centro */
     justify-content: center;
     font-weight: bold;
+
+    /* Estilo de fondo */
+    background-color: #FF5733; /* Color de fondo más brillante */
+    border: 2px solid #D83C2A; /* Borde más visible */
+    border-radius: 8px; /* Borde redondeado */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animación para cambio de color y transformaciones */
+
+    /* Sombra adicional */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+    
+    /* Efecto hover para destacar el botón */
+    &:hover {
+        background-color: #D83C2A; /* Cambia el color de fondo cuando el usuario pasa el ratón por encima */
+        transform: translateY(-2px); /* Efecto de levantamiento al pasar el ratón */
+    }
 
     & > article {
         text-shadow: 
@@ -126,6 +140,7 @@ main {
             2px 2px 0 rgba(0, 0, 0, 0.8); /* Contorno negro más pronunciado */
     }
 }
+
 .check-icon {
     font-size: 20px;
     /* Tamaño del ícono */
