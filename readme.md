@@ -72,4 +72,4 @@ Esto te llevará directamente al navegador donde podrás ver la página en tiemp
 
 ## Pruebas de accesibildad 
 Para ver las dos pruebas de accesibilidad hechas al proyecto picnhe al siguiente enlace.
-- [Ver documento PDF](./Tarea14y15.pdf.pdf)
+- [Ver documento PDF](./Tarea14y15.pdf)
