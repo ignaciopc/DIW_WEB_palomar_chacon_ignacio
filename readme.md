@@ -70,6 +70,6 @@ npm run dev
 
 Esto te llevará directamente al navegador donde podrás ver la página en tiempo real. 
 
-## Pruebas de accesibildad 
-Para ver las dos pruebas de accesibilidad hechas al proyecto picnhe al siguiente enlace.
+## Pruebas de accesibildad y usabilidad  
+Para ver las dos pruebas de accesibilidad y las pruebas de usabilidad hechas al proyecto pinche al siguiente enlace.
 - [Ver documento PDF](./Tarea14y15.pdf)
