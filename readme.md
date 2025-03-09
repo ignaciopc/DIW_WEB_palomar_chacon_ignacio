@@ -72,5 +72,5 @@ Esto te llevará directamente al navegador donde podrás ver la página en tiemp
 
 ## Pruebas de accesibildad y usabilidad  
 Para ver las dos pruebas de accesibilidad y las pruebas de usabilidad hechas al proyecto pinche al siguiente enlace (por alguna razon a mi cuando estoy bajando y estoy en la primera pagina de la tarea 15 se queda como cargando pero simplemente hago click aqui y ya).
-![Error al cargar](./image.png)
+- ![Error al cargar](./image.png)
 - [Ver documento PDF](./Tarea14y15.pdf)
